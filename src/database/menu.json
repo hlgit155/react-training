@@ -1,0 +1,60 @@
+{
+    "extratopbar": [
+        {
+            "title": "Contact & FAQs",
+            "url": ""
+        },
+        {
+            "title": "Delivery",
+            "url": ""
+        },
+        {
+            "title": "Returns",
+            "url": ""
+        },
+        {
+            "title": "Track Orders",
+            "url": ""
+        },
+        {
+            "title": "Share Your Ideas",
+            "url": ""
+        },
+        {
+            "title": "Gift Cards",
+            "url": ""
+        }
+    ],
+    "topbar": [
+        {
+            "title": "Women",
+            "url": ""
+        },
+        {
+            "title": "Men",
+            "url": ""
+        },
+        {
+            "title": "Kids",
+            "url": ""
+        },
+        {
+            "title": "Sport",
+            "url": ""
+        },
+        {
+            "title": "Beauty",
+            "url": ""
+        },
+        {
+            "title": "Home",
+            "url": ""
+        }
+    ],
+    "navbar": [
+        {
+            "title": "Test",
+            "url": ""
+        }
+    ]
+}
