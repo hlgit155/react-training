@@ -8,26 +8,26 @@ import {
   Logo,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
-import menu from "../../database/menu.json";
+import mainMenu from "../../database/menu/main-menu.json";
 // import { ReactComponent as Logo } from "./../../assets/logo.svg";
 
 function Header() {
-  const topbarMenu = menu.topbar;
-  const extraTopbarMenu = menu.extratopbar;
+  const extraTopbarMenu = mainMenu.extratopbar;
+  const topbarMenu = mainMenu.topbar;
 
   return (
     <HeaderWrap>
       <ExtraTopbarWrap>
         <ExtraTopbar>
-          {extraTopbarMenu.map((item, index) => {
-            return <ExtraTopbarItem>{item.title}</ExtraTopbarItem>;
+          {extraTopbarMenu.map((item, idx) => {
+            return <ExtraTopbarItem key={idx}>{item.title}</ExtraTopbarItem>;
           })}
         </ExtraTopbar>
       </ExtraTopbarWrap>
       <HeaderSection>
         <TopbarRow>
           <Logo />
-          <Topbar menu={topbarMenu} />
+          <Topbar mainMenu={topbarMenu} />
           {/* <TopbarOptions /> */}
         </TopbarRow>
         {/* <NavbarRow></NavbarRow> */}

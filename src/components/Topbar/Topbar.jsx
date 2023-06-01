@@ -1,16 +1,16 @@
 import { TopbarWrap, TopbarItem } from "./Topbar.styles";
 
-// function Nav({ menu }) {
-function Nav(props) {
-  const { menu } = props;
+// function Topbar({ menu }) {
+function Topbar(props) {
+  const { mainMenu } = props;
   
   return (
     <TopbarWrap>
-      {menu.map((item,index) => {
+      {mainMenu.map((item,index) => {
         return <TopbarItem key={index}>{item.title}</TopbarItem>;
       })}
     </TopbarWrap>
   );
 }
 
-export default Nav;
+export default Topbar;
