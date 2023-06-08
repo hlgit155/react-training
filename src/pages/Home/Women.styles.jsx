@@ -25,4 +25,25 @@ const NavbarItem = styled.div`
     }
 `;
 
-export { StyledNavbar, NavbarItem };
+const SubMenuWrap = styled.div`
+    display: flex;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+
+`
+
+const SubList = styled.div`
+    width: 100px;
+`
+
+const SubListTitle = styled.div`
+    font-weight: bold;
+`
+
+const WomenContent = styled.div`
+    background-color: #EDEDEE;
+    height: 2000px;
+`
+
+export { StyledNavbar, NavbarItem, SubMenuWrap, SubList, SubListTitle, WomenContent };

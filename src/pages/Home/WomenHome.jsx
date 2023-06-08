@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { StyledNavbar, NavbarItem } from "./Women.styles"
+import { StyledNavbar, NavbarItem, SubMenuWrap, SubList, SubListTitle, WomenContent } from "./Women.styles"
 
 import mainMenu from "../../database/menu/main-menu.json";
 
@@ -8,6 +8,7 @@ export default function Women() {
   const [navbarItemsHover, setNavbarItemsHover] = useState([false,false]);
 
   function handleShowNavbar(index) {
+    // console.log('index',index)
     const newNavbar = navbarItemsHover.map((n, i) => {
       if (i === index) {
         // Change the navbar item to true
@@ -17,9 +18,11 @@ export default function Women() {
       }
     });
     setNavbarItemsHover(newNavbar);
+    console.log(newNavbar)
   }
 
   function handleUnShowNavbar(index) {
+    // console.log('index',index)
     const newNavbar = navbarItemsHover.map((n, i) => {
       if (i === index) {
         // Change the navbar item to true
@@ -29,11 +32,12 @@ export default function Women() {
       }
     });
     setNavbarItemsHover(newNavbar);
+    console.log(newNavbar)
   }
 
-  useEffect(() => {
-    console.log(navbarItemsHover)
-  })
+  // useEffect(() => {
+  //   console.log(navbarItemsHover)
+  // })
 
 
 
@@ -44,14 +48,56 @@ export default function Women() {
           return (
             <NavbarItem  
               key={index}
-              onMouseEnter={(index) => handleShowNavbar(index)}
-              onMouseLeave={(index) => handleUnShowNavbar(index)}
+              onMouseEnter={()=>handleShowNavbar(index)}
+              onMouseLeave={()=>handleUnShowNavbar(index)}
             >
               {item.title}
             </NavbarItem>
           );
         })}
       </StyledNavbar>
+      {navbarItemsHover[0] && 
+      /*one sub menu */
+      <SubMenuWrap>
+        {navbarMenu.map((subMenu) => {
+          return (
+            <SubList>
+              <SubListTitle>{subMenu.title}</SubListTitle>
+              {subMenu.submenu.map((item) => {
+                return (
+                  <div>{item.name}</div>
+                )
+              })}
+            </SubList>
+          )
+        })}
+      </SubMenuWrap>}
+      {navbarItemsHover[1] && 
+      <div>
+        menu222
+      </div>}
+      <WomenContent>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        <br></br>
+      </WomenContent>
     </>
     
   )
