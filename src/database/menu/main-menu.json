@@ -53,42 +53,179 @@
   ],
   "navbar": [
     {
-      "women": [
+      "title": "Women",
+      "url": "/women",
+      "subMenu": [
         {
-          "title": "New In",
-          "submenu": [
+          "title": "Clothing",
+          "url": "/women/clothing",
+          "subMenu": [
             {
-              "name": "New In",
-              "url": ""
+              "title": "All Clothing",
+              "url": "/women/clothing/all-clothing",
+              "subMenu": [
+            
+            {
+              "title": "Activewear",
+              "url": "/women/clothing/all-clothing/activewear"
             },
             {
-              "name": "This Month",
-              "url": ""
+              "title": "Coats & Jackets",
+              "url": "/women/clothing/all-clothing/coats-jackets"
+            }
+          ]
+        }]
+      },
+       {
+        "title": "Shoes",
+          "url": "/women/shoes",
+          "subMenu": [
+            {
+              "title": "All Shoes",
+              "url": "/women/shoes/all-shoes",
+              "subMenu": [
+            
+            {
+              "title": "Ankle Boots",
+              "url": "/women/shoes/all-shoes/ankle-boots"
             },
             {
-              "name": "Trending",
-              "url": ""
+              "title": "Boots",
+              "url": "/women/shoes/all-shoes/boots"
+            }
+          ]
+        }]
+       },
+       {
+        "title": "Accessories",
+          "url": "/women/accessories",
+          "subMenu": [
+            {
+              "title": "All Accessories",
+              "url": "/women/accessories/all-accessories",
+              "subMenu": [
+            
+            {
+              "title": "Bags",
+              "url": "/women/accessories/all-accessories/bags"
+            },
+            {
+              "title": "Belts",
+              "url": "/women/accessories/all-accessories/belts"
+            }
+          ]
+        }]
+       } 
+      ]   
+    },
+    {
+      "title": "Kids",
+      "url": "/kids",
+      "submenu": [
+        {
+          "title": "Girls",
+          "url": "/kids/girls",
+          "subMenu": [
+            {
+              "title": "Clothing",
+              "url": "/kids/girls/clothing",
+              "subMenu": [
+            
+            {
+              "title": "Jumpers & Cardigans",
+              "url": "/kids/girls/clothing/jumpers-cardigans"
+            },
+            {
+              "title": "Jumpsuits & Playsuits",
+              "url": "/kids/girls/clothing/jumpsuits-playsuits"
             }
           ]
         },
         {
-          "title": "Clothing",
-          "submenu": [
+          "title": "Shoes",
+          "url": "/kids/girls/shoes",
+          "subMenu": [
+        
+        {
+          "title": "Boots",
+          "url": "/kids/girls/shoes/boots"
+        },
+        {
+          "title": "Dress Shoes",
+          "url": "/kids/girls/shoes/dress-shoes"
+        }
+      ] 
+        },
+        {
+          "title": "Accessories",
+              "url": "/kids/girls/accessories",
+              "subMenu": [
+            
             {
-              "name": "Shop Clothing",
-              "url": ""
+              "title": "Bags",
+              "url": "/kids/girls/accessories/bags"
             },
             {
-              "name": "New Arrivals",
-              "url": ""
-            },
-            {
-              "name": "Sale",
-              "url": ""
+              "title": "Gifts",
+              "url": "/kids/girls/accessories/gifts"
             }
           ]
         }
       ]
+      },
+      {
+        "title": "Baby",
+        "url": "/kids/baby",
+        "subMenu": [
+        {
+          "title": "Clothing",
+              "url": "/kids/baby/clothing",
+              "subMenu": [
+            
+            {
+              "title": "Knitwear",
+              "url": "/kids/baby/clothing/knitwear"
+            },
+            {
+              "title": "Onesies & Rompers",
+              "url": "/kids/baby/clothing/onesies-rompers"
+            }
+          ] 
+        },
+        {
+          "title": "Shoes",
+          "url": "kids/baby/shoes",
+          "subMenu": [
+            {
+              "title": "Boots",
+              "url": "kids/baby/shoes/boots"
+            },
+            {
+              "title": "Sandals",
+              "url": "kids/baby/shoes/sandals"
+            }
+          ]
+        },
+        {
+          "title": "Nursery",
+          "url": "kids/baby/nursery",
+          "subMenu": [
+            {
+              "title": "Baby & Preschool Toys",
+              "url": "kids/baby/nursery/baby-preschool-toys"
+            },
+            {
+              "title": "Baby Bags",
+              "url": "kids/baby/nursery/baby-bags"
+            }
+          ]
+        }
+
+        ]
+      }
+
+      ]
+
     }
   ]
-}
+    }
