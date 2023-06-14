@@ -28,7 +28,7 @@
   "topbar": [
     {
       "title": "Women",
-      "url": ""
+      "url": "/women"
     },
     {
       "title": "Men",
@@ -53,7 +53,8 @@
   ],
   "navbar": [
     {
-      "women": [
+      "page": "women",
+      "menu": [
         {
           "title": "New In",
           "submenu": [
@@ -73,6 +74,45 @@
         },
         {
           "title": "Clothing",
+          "submenu": [
+            {
+              "name": "Shop Clothing",
+              "url": ""
+            },
+            {
+              "name": "New Arrivals",
+              "url": ""
+            },
+            {
+              "name": "Sale",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "kids",
+      "menu": [
+        {
+          "title": "New In",
+          "submenu": [
+            {
+              "name": "New In",
+              "url": ""
+            },
+            {
+              "name": "This Month",
+              "url": ""
+            },
+            {
+              "name": "Trending",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Baby",
           "submenu": [
             {
               "name": "Shop Clothing",
