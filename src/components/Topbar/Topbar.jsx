@@ -16,7 +16,7 @@ function Topbar(props) {
         // 
         // ** Another method is to create a convertor function to convert the format from the string of title to acceptable format,
         // which is more complicated but oftenly necessary for some situtations
-        return <TopbarItem onClick={() => {const routeLink = item.title; navigate(routeLink)}} key={index}>{item.title}</TopbarItem>;
+        return <TopbarItem onClick={() => {const routeLink = item.url; navigate(routeLink)}} key={index}>{item.title}</TopbarItem>;
       })}
     </TopbarWrap>
   );

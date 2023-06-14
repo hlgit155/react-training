@@ -30,11 +30,12 @@ const SubMenuWrap = styled.div`
     background-color: white;
     position: absolute;
     width: 100%;
+    padding: 4rem;
 
 `
 
 const SubList = styled.div`
-    width: 100px;
+    
 `
 
 const SubListTitle = styled.div`
@@ -46,4 +47,10 @@ const WomenContent = styled.div`
     height: 2000px;
 `
 
-export { StyledNavbar, NavbarItem, SubMenuWrap, SubList, SubListTitle, WomenContent };
+const SubMenuItem = styled.div`
+    color: #4d4d4d;
+    
+    margin-bottom: 1rem;
+`
+
+export { StyledNavbar, NavbarItem, SubMenuWrap, SubList, SubListTitle, WomenContent, SubMenuItem };

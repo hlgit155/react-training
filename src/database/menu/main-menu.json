@@ -2,27 +2,27 @@
   "extratopbar": [
     {
       "title": "Contact & FAQs",
-      "url": ""
+      "url": "/contact"
     },
     {
       "title": "Delivery",
-      "url": ""
+      "url": "/delivery"
     },
     {
       "title": "Returns",
-      "url": ""
+      "url": "/returns"
     },
     {
       "title": "Track Orders",
-      "url": ""
+      "url": "/track-orders"
     },
     {
       "title": "Share Your Ideas",
-      "url": ""
+      "url": "/share-your-ideas"
     },
     {
       "title": "Gift Cards",
-      "url": ""
+      "url": "/gift-cards"
     }
   ],
   "topbar": [
@@ -32,63 +32,106 @@
     },
     {
       "title": "Men",
-      "url": ""
+      "url": "/men"
     },
     {
       "title": "Kids",
-      "url": ""
+      "url": "/kids"
     },
     {
       "title": "Sport",
-      "url": ""
+      "url": "/sport"
     },
     {
       "title": "Beauty",
-      "url": ""
+      "url": "/beauty"
     },
     {
       "title": "Home",
-      "url": ""
+      "url": "/home"
     }
   ],
-  "navbar": [
-    {
-      "women": [
-        {
-          "title": "New In",
-          "submenu": [
-            {
-              "name": "New In",
-              "url": ""
-            },
-            {
-              "name": "This Month",
-              "url": ""
-            },
-            {
-              "name": "Trending",
-              "url": ""
-            }
-          ]
-        },
-        {
-          "title": "Clothing",
-          "submenu": [
-            {
-              "name": "Shop Clothing",
-              "url": ""
-            },
-            {
-              "name": "New Arrivals",
-              "url": ""
-            },
-            {
-              "name": "Sale",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "navbar": {
+    "women": [
+      {
+        "title": "New In",
+        "submenu": [
+          {
+            "name": "New In",
+            "url": "/new-in"
+          },
+          {
+            "name": "This Month",
+            "url": "/this-month"
+          },
+          {
+            "name": "Trending",
+            "url": "/trending"
+          }
+        ]
+      },
+      {
+        "title": "Clothing",
+        "submenu": [
+          {
+            "name": "Shop Clothing",
+            "url": "/shop-clothing"
+          },
+          {
+            "name": "New Arrivals",
+            "url": "/new-arrivals"
+          },
+          {
+            "name": "Sale",
+            "url": "/sale"
+          }
+        ]
+      }
+    ],
+    "kids": [
+      {
+        "title": "New In",
+        "submenu": [
+          {
+            "name": "New In",
+            "url": "/new-in"
+          },
+          {
+            "name": "Baby",
+            "url": "/baby"
+          },
+          {
+            "name": "Kids",
+            "url": "/kids"
+          },
+          {
+            "name": "Teen",
+            "url": "/teen"
+          }
+        ]
+      },
+      {
+        "title": "Baby",
+        "submenu": [
+          {
+            "name": "Discover Baby",
+            "url": "/discover-baby"
+          },
+          {
+            "name": "Shop By Edit",
+            "url": "/shop-by-edit"
+          },
+          {
+            "name": "Clothing",
+            "url": "/clothing"
+          },
+          {
+            "name": "Shoes",
+            "url": "/shoes"
+          }
+        ]
+      }
+    ]
+  }
+  
 }
