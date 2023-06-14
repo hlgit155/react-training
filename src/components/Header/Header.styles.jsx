@@ -12,6 +12,7 @@ export const HeaderSection = styled.div`
   justify-content: center;
   width: 100%;
   background-color: black;
+  flex-direction: column;
 `;
 
 export const ExtraTopbarWrap = styled(HeaderSection)`
@@ -35,7 +36,7 @@ export const ExtraTopbarItem = styled.div`
 export const TopbarRow = styled(CoreBoxWidth)`
   display: grid;
   line-height: 20px;
-  grid-template-columns: 20% 50% 30%;
+  grid-template-columns: max-content auto max-content;
 `;
 
 export const Logo = styled(AssetLogo)`
@@ -43,5 +44,27 @@ export const Logo = styled(AssetLogo)`
   line-height: 24px;
   min-width: 70px;
   width: 160px;
-  margin: auto;
+  margin: auto 24px;
+`;
+
+export const NavbarRow = styled(CoreBoxWidth)`
+  display: flex;
+  width: 100%;
+`;
+
+export const NavbarItem = styled.div`
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    // font-family: "Proxima Nova Bold";
+    padding: 14px 24px;
+    transition: all .25s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(255,255,255,.2);
+    }
+    &:active {
+        border-bottom: 1px solid #eee;
+    }
 `;

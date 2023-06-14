@@ -6,15 +6,28 @@ import {
   ExtraTopbarItem,
   TopbarRow,
   Logo,
+  NavbarRow,
+  NavbarItem,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
-// import { ReactComponent as Logo } from "./../../assets/logo.svg";
+import { useLocation } from "react-router-dom";
 
 function Header() {
-  const extraTopbarMenu = mainMenu.extratopbar;
-  const topbarMenu = mainMenu.topbar;
+  // const extraTopbarMenu = mainMenu.extratopbar;
+  // const topbarMenu = mainMenu.topbar;
+  // const navbarMenu = mainMenu.navbar;
+  const {
+    extratopbar: extraTopbarMenu,
+    topbar: topbarMenu,
+    navbar: navbarMenu,
+  } = mainMenu;
 
+  // load navbar dynamically based on current 'pathname'
+  const { pathname } = useLocation();
+  const pathArr = pathname.split("/");
+  const pageNavbar = navbarMenu.find((navbar) => navbar.page === pathArr[1]) || navbarMenu.find((navbar) => navbar.page === 'women');
+  
   return (
     <HeaderWrap>
       <ExtraTopbarWrap>
@@ -31,6 +44,19 @@ function Header() {
           {/* <TopbarOptions /> */}
         </TopbarRow>
         {/* <NavbarRow></NavbarRow> */}
+        <NavbarRow>
+          {pageNavbar.menu.map((item, index) => {
+            return (
+              <NavbarItem
+                key={index}
+                // onMouseEnter={() => handleShowNavbar(index)}
+                // onMouseLeave={() => handleUnShowNavbar(index)}
+              >
+                {item.title}
+              </NavbarItem>
+            );
+          })}
+        </NavbarRow>
       </HeaderSection>
     </HeaderWrap>
   );
