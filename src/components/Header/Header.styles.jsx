@@ -68,3 +68,8 @@ export const NavbarItem = styled.div`
         border-bottom: 1px solid #eee;
     }
 `;
+
+export const Submenu = styled.div`
+  padding: 3rem;
+  
+`;

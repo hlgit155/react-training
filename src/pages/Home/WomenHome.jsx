@@ -4,42 +4,32 @@ import { StyledNavbar, NavbarItem, SubMenuWrap, SubList, SubListTitle, WomenCont
 import mainMenu from "../../database/menu/main-menu.json";
 
 export default function Women() {
-  const navbarMenu = mainMenu.navbar[0].women;
+  const navbarMenu = mainMenu.navbar[0].menu;
   const [navbarItemsHover, setNavbarItemsHover] = useState([false,false]);
 
-  function handleShowNavbar(index) {
-    // console.log('index',index)
-    const newNavbar = navbarItemsHover.map((n, i) => {
-      if (i === index) {
-        // Change the navbar item to true
-        return true;
-      } else {
-        return false;
-      }
-    });
-    setNavbarItemsHover(newNavbar);
-    console.log(newNavbar)
-  }
+  // function handleShowNavbar(index) {
+  //   const newNavbar = navbarItemsHover.map((n, i) => {
+  //     if (i === index) {
+  //       return true;
+  //     } else {
+  //       return false;
+  //     }
+  //   });
+  //   setNavbarItemsHover(newNavbar);
+  //   console.log(newNavbar)
+  // }
 
-  function handleUnShowNavbar(index) {
-    // console.log('index',index)
-    const newNavbar = navbarItemsHover.map((n, i) => {
-      if (i === index) {
-        // Change the navbar item to true
-        return false;
-      } else {
-        return false;
-      }
-    });
-    setNavbarItemsHover(newNavbar);
-    console.log(newNavbar)
-  }
-
-  // useEffect(() => {
-  //   console.log(navbarItemsHover)
-  // })
-
-
+  // function handleUnShowNavbar(index) {
+  //   const newNavbar = navbarItemsHover.map((n, i) => {
+  //     if (i === index) {
+  //       return false;
+  //     } else {
+  //       return false;
+  //     }
+  //   });
+  //   setNavbarItemsHover(newNavbar);
+  //   console.log(newNavbar)
+  // }
 
   return (
     <>
@@ -48,8 +38,8 @@ export default function Women() {
           return (
             <NavbarItem  
               key={index}
-              onMouseEnter={()=>handleShowNavbar(index)}
-              onMouseLeave={()=>handleUnShowNavbar(index)}
+              // onMouseEnter={()=>handleShowNavbar(index)}
+              // onMouseLeave={()=>handleUnShowNavbar(index)}
             >
               {item.title}
             </NavbarItem>
