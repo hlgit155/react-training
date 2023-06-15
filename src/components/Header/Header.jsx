@@ -8,10 +8,13 @@ import {
   Logo,
   NavbarRow,
   NavbarItem,
+  SubmenuRow,
+  SubmenuContainer,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
 import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
   // const extraTopbarMenu = mainMenu.extratopbar;
@@ -26,8 +29,12 @@ function Header() {
   // load navbar dynamically based on current 'pathname'
   const { pathname } = useLocation();
   const pathArr = pathname.split("/");
-  const pageNavbar = navbarMenu.find((navbar) => navbar.page === pathArr[1]) || navbarMenu.find((navbar) => navbar.page === 'women');
-  
+  const pageNavbar =
+    navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
+    navbarMenu.find((navbar) => navbar.page === "women");
+
+  const [showNav, setShowNav] = useState(false);
+
   return (
     <HeaderWrap>
       <ExtraTopbarWrap>
@@ -49,8 +56,8 @@ function Header() {
             return (
               <NavbarItem
                 key={index}
-                // onMouseEnter={() => handleShowNavbar(index)}
-                // onMouseLeave={() => handleUnShowNavbar(index)}
+                onMouseEnter={() => setShowNav(true)}
+                onMouseLeave={() => setShowNav(false)}
               >
                 {item.title}
               </NavbarItem>
@@ -58,6 +65,16 @@ function Header() {
           })}
         </NavbarRow>
       </HeaderSection>
+      {showNav && (
+        <SubmenuRow
+          onMouseEnter={() => setShowNav(true)}
+          onMouseLeave={() => setShowNav(false)}
+        >
+          <SubmenuContainer>
+            {/* <SubmenuItem></SubmenuItem> */}
+          </SubmenuContainer>
+        </SubmenuRow>
+      )}
     </HeaderWrap>
   );
 }

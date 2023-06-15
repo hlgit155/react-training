@@ -68,3 +68,19 @@ export const NavbarItem = styled.div`
         border-bottom: 1px solid #eee;
     }
 `;
+
+export const SubmenuRow = styled.div`
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  padding-top: 16px 24px;
+  background-color: grey;
+  transition: all .2s;
+`;
+
+export const SubmenuContainer = styled(CoreBoxWidth)`
+  display: flex;
+  background-color: lightgrey;
+`;
