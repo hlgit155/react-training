@@ -58,18 +58,94 @@
         {
           "title": "New In",
           "submenu": [
-            {
-              "name": "New In",
-              "url": ""
-            },
-            {
-              "name": "This Month",
-              "url": ""
-            },
-            {
-              "name": "Trending",
-              "url": ""
-            }
+            [
+              {
+                "name": "New In",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "This Month",
+                "url": ""
+              },
+              {
+                "name": "Trending",
+                "url": ""
+              },
+              {
+                "name": "Designer",
+                "url": ""
+              },
+              {
+                "name": "Resort Shop",
+                "url": ""
+              },
+              {
+                "name": "Only at THE ICONIC",
+                "url": ""
+              },
+              {
+                "name": "Best Sellers",
+                "url": ""
+              },
+              {
+                "name": "Back In Stock",
+                "url": ""
+              },
+              {
+                "name": "Winter Must Haves",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "New In From Our Range",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Sport",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop The Winter Edit",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/7j_X2UxxSImN58qgsgipyLyS6fA=/1600x1600/top/filters:fill(ffffff,1):quality(90):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2Fc9b67d5c-b003-433e-a1f0-5db7ba3c5bc2_NavTileDesk-Winter.jpg",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Resort Shop",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/8BpAGk7c-J4gFpAVHYm6ylvGRCg=/1600x1600/top/filters:fill(ffffff,1):quality(90):format(jpeg)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2Fb8709641-8c3a-4dc3-a8b3-01279d1c1db0_NavTileDesk.jpg",
+                "url": ""
+              }
+            ]
           ]
         },
         {
