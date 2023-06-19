@@ -58,61 +58,79 @@
         {
           "title": "New In",
           "submenu": [
+            {"header": "New In",
+              "list": [
+                {
+                  "name": "This Month",
+                  "url": ""
+                },
+                {
+                  "name": "Trending",
+                  "url": ""
+                },
+                {
+                  "name": "Designer",
+                  "url": ""
+                },
+                {
+                  "name": "Resort Shop",
+                  "url": ""
+                },
+                {
+                  "name": "Only at THE ICONIC",
+                  "url": ""
+                },
+                {
+                  "name": "Best Sellers",
+                  "url": ""
+                },
+                {
+                  "name": "Back In Stock",
+                  "url": ""
+                },
+                {
+                  "name": "Winter Must Haves",
+                  "url": ""
+                }
+
+              ]
+            },
+            {"header": "New In From Our Range",
+              "list":[
+                {
+                  "name": "Sport",
+                  "url": ""
+                },
+                {
+                  "name": "Beauty",
+                  "url": ""
+                },
+                {
+                  "name": "Home",
+                  "url": ""
+                },
+                {
+                  "name": "Kids",
+                  "url": ""
+                },
+                {
+                  "name": "Sneakerhub",
+                  "url": ""
+                }
+              ]
+            }
+
+          ],
+          "images":[
             {
-              "name": "New In",
-              "url": ""
+              "header":"Shop Winter Essentials",
+              "url":"",
+              "image-url":"https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
             },
             {
-              "name": "This Month",
-              "url": ""
-            },
-            {
-              "name": "Trending",
-              "url": ""
-            },
-            {
-              "name": "Designer",
-              "url": ""
-            },
-            {
-              "name": "Resort Shop",
-              "url": ""
-            },
-            {
-              "name": "Only at THE ICONIC",
-              "url": ""
-            },
-            {
-              "name": "Best Sellers",
-              "url": ""
-            },
-            {
-              "name": "Back In Stock",
-              "url": ""
-            },
-            {
-              "name": "Winter Must Haves",
-              "url": ""
-            },
-            {
-              "name": "Sport",
-              "url": ""
-            },
-            {
-              "name": "Beauty",
-              "url": ""
-            },
-            {
-              "name": "Home",
-              "url": ""
-            },
-            {
-              "name": "Kids",
-              "url": ""
-            },
-            {
-              "name": "Sneakerhub",
-              "url": ""
+              "header":"Office Wear Essentials",
+              "url":"",
+              "image-url":"https://plus.unsplash.com/premium_photo-1683141270544-05c8cc23f60c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
             }
           ]
         },

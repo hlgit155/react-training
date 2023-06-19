@@ -81,15 +81,27 @@ export const SubmenuRow = styled.div`
 `;
 
 export const SubmenuContainer = styled(CoreBoxWidth)`
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* justify-items: center;  */
-  align-items: center;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
   padding: 24px;
-  /* background-color: lightgrey; */
+  background-color: lightgrey;
 `;
 
 export const SubmenuItem = styled(CoreBoxWidth)`
   
 `;
+
+export const SubColumn = styled.div`
+  
+`;
+
+export const SubHeader = styled.div`
+  font-weight: 600;
+  line-height: 3rem;
+`;
+
+export const ListItem = styled.div`
+  
+`;
+

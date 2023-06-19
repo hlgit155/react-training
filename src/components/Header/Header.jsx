@@ -10,7 +10,11 @@ import {
   NavbarItem,
   SubmenuRow,
   SubmenuContainer,
-  SubmenuItem
+  SubmenuItem,
+  SubColumn,
+  SubHeader,
+  ListItem
+
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
@@ -33,7 +37,6 @@ function Header() {
   const pageNavbar =
     navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
     navbarMenu.find((navbar) => navbar.page === "women");
-  //pageNavbar : {"page":"women","menu":[{"title":"New In","submenu":[{"name:"New In},"url:"]}]}
   const [showNav, setShowNav] = useState(true);
 
   return (
@@ -58,7 +61,7 @@ function Header() {
               <NavbarItem
                 key={index}
                 onMouseEnter={() => setShowNav(true)}
-                onMouseLeave={() => setShowNav(false)}
+                onMouseLeave={() => setShowNav(true)}
               >
                 {item.title}
               </NavbarItem>
@@ -69,13 +72,28 @@ function Header() {
       {showNav && (
         <SubmenuRow
           onMouseEnter={() => setShowNav(true)}
-          onMouseLeave={() => setShowNav(false)}
+          onMouseLeave={() => setShowNav(true)}
         >
           <SubmenuContainer>
             {/* <SubmenuItem></SubmenuItem> */}
             {pageNavbar.menu[0].submenu.map((item, idx) => {
-            return <SubmenuItem key={idx}>{item.name}</SubmenuItem>;
+            {/* return <SubmenuItem key={idx}>{item.name}</SubmenuItem>; */}
+            return (
+              <SubColumn key={idx}>
+              <SubHeader>{item.header}</SubHeader>
+              {item.list.map((listItem, index) => {return <ListItem>{listItem.name}</ListItem>})}
+              </SubColumn>
+              )
           })}
+            {pageNavbar.menu[0].images.map((item,index) => {
+              return (
+                <SubColumn>
+                  <SubHeader>{item.header}</SubHeader>
+                  <img src={item["image-url"]} width="300"></img>
+                </SubColumn>
+                
+              )
+            })}
           </SubmenuContainer>
         </SubmenuRow>
       )}
