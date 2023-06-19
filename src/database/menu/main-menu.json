@@ -69,6 +69,50 @@
             {
               "name": "Trending",
               "url": ""
+            },
+            {
+              "name": "Designer",
+              "url": ""
+            },
+            {
+              "name": "Resort Shop",
+              "url": ""
+            },
+            {
+              "name": "Only at THE ICONIC",
+              "url": ""
+            },
+            {
+              "name": "Best Sellers",
+              "url": ""
+            },
+            {
+              "name": "Back In Stock",
+              "url": ""
+            },
+            {
+              "name": "Winter Must Haves",
+              "url": ""
+            },
+            {
+              "name": "Sport",
+              "url": ""
+            },
+            {
+              "name": "Beauty",
+              "url": ""
+            },
+            {
+              "name": "Home",
+              "url": ""
+            },
+            {
+              "name": "Kids",
+              "url": ""
+            },
+            {
+              "name": "Sneakerhub",
+              "url": ""
             }
           ]
         },
@@ -85,6 +129,54 @@
             },
             {
               "name": "Sale",
+              "url": ""
+            },
+            {
+              "name": "Trending",
+              "url": ""
+            },
+            {
+              "name": "ONLY at THE ICONIC",
+              "url": ""
+            },
+            {
+              "name": "Back In Stock",
+              "url": ""
+            },
+            {
+              "name": "All Clothing",
+              "url": ""
+            },
+            {
+              "name": "Activewear",
+              "url": ""
+            },
+            {
+              "name": "Cloth & Jackets",
+              "url": ""
+            },
+            {
+              "name": "Dresses",
+              "url": ""
+            },
+            {
+              "name": "Jeans",
+              "url": ""
+            },
+            {
+              "name": "Jumpsuits & Playsuits",
+              "url": ""
+            },
+            {
+              "name": "Knitwear",
+              "url": ""
+            },
+            {
+              "name": "Lingerie",
+              "url": ""
+            },
+            {
+              "name": "Loungewear",
               "url": ""
             }
           ]

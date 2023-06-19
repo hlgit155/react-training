@@ -76,11 +76,20 @@ export const SubmenuRow = styled.div`
   width: 100%;
   min-height: 50vh;
   padding-top: 16px 24px;
-  background-color: grey;
+  background-color: #fff;
   transition: all .2s;
 `;
 
 export const SubmenuContainer = styled(CoreBoxWidth)`
-  display: flex;
-  background-color: lightgrey;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* justify-items: center;  */
+  align-items: center;
+  padding: 24px;
+  /* background-color: lightgrey; */
+`;
+
+export const SubmenuItem = styled(CoreBoxWidth)`
+  
 `;

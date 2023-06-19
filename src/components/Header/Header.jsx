@@ -8,12 +8,9 @@ import {
   Logo,
   NavbarRow,
   NavbarItem,
-<<<<<<< HEAD
-  Submenu
-=======
   SubmenuRow,
   SubmenuContainer,
->>>>>>> Henry
+  SubmenuItem
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
@@ -36,8 +33,8 @@ function Header() {
   const pageNavbar =
     navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
     navbarMenu.find((navbar) => navbar.page === "women");
-
-  const [showNav, setShowNav] = useState(false);
+  //pageNavbar : {"page":"women","menu":[{"title":"New In","submenu":[{"name:"New In},"url:"]}]}
+  const [showNav, setShowNav] = useState(true);
 
   return (
     <HeaderWrap>
@@ -76,6 +73,9 @@ function Header() {
         >
           <SubmenuContainer>
             {/* <SubmenuItem></SubmenuItem> */}
+            {pageNavbar.menu[0].submenu.map((item, idx) => {
+            return <SubmenuItem key={idx}>{item.name}</SubmenuItem>;
+          })}
           </SubmenuContainer>
         </SubmenuRow>
       )}
