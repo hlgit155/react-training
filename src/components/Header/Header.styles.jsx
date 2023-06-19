@@ -82,9 +82,10 @@ export const SubmenuRow = styled.div`
 
 export const SubmenuContainer = styled(CoreBoxWidth)`
   display: flex;
-  justify-content: space-between; 
+  
+  justify-content: stretch; 
   align-items: flex-start;
-  padding: 24px;
+  /* padding: 24px; */
   background-color: lightgrey;
 `;
 
@@ -93,15 +94,24 @@ export const SubmenuItem = styled(CoreBoxWidth)`
 `;
 
 export const SubColumn = styled.div`
-  
+  padding:24px;
+  max-width: 33%;
 `;
 
 export const SubHeader = styled.div`
   font-weight: 600;
-  line-height: 3rem;
+  margin-bottom: 0.5rem;
 `;
 
 export const ListItem = styled.div`
-  
+  padding: 0.5rem 0;
+  font-weight: 200;
+`;
+
+export const ImageWrap = styled.div`
+  padding: 0.5rem 0;
+  max-width: 30%;
+  display: flex;
+  justify-content: stretch;
 `;
 

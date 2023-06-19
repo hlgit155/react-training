@@ -2,27 +2,27 @@
   "extratopbar": [
     {
       "title": "Contact & FAQs",
-      "url": "/contact"
+      "url": ""
     },
     {
       "title": "Delivery",
-      "url": "/delivery"
+      "url": ""
     },
     {
       "title": "Returns",
-      "url": "/returns"
+      "url": ""
     },
     {
       "title": "Track Orders",
-      "url": "/track-orders"
+      "url": ""
     },
     {
       "title": "Share Your Ideas",
-      "url": "/share-your-ideas"
+      "url": ""
     },
     {
       "title": "Gift Cards",
-      "url": "/gift-cards"
+      "url": ""
     }
   ],
   "topbar": [
@@ -32,23 +32,23 @@
     },
     {
       "title": "Men",
-      "url": "/men"
+      "url": ""
     },
     {
       "title": "Kids",
-      "url": "/kids"
+      "url": ""
     },
     {
       "title": "Sport",
-      "url": "/sport"
+      "url": ""
     },
     {
       "title": "Beauty",
-      "url": "/beauty"
+      "url": ""
     },
     {
       "title": "Home",
-      "url": "/home"
+      "url": ""
     }
   ],
   "navbar": [
@@ -58,145 +58,114 @@
         {
           "title": "New In",
           "submenu": [
-            {"header": "New In",
-              "list": [
-                {
-                  "name": "This Month",
-                  "url": ""
-                },
-                {
-                  "name": "Trending",
-                  "url": ""
-                },
-                {
-                  "name": "Designer",
-                  "url": ""
-                },
-                {
-                  "name": "Resort Shop",
-                  "url": ""
-                },
-                {
-                  "name": "Only at THE ICONIC",
-                  "url": ""
-                },
-                {
-                  "name": "Best Sellers",
-                  "url": ""
-                },
-                {
-                  "name": "Back In Stock",
-                  "url": ""
-                },
-                {
-                  "name": "Winter Must Haves",
-                  "url": ""
-                }
-
-              ]
-            },
-            {"header": "New In From Our Range",
-              "list":[
-                {
-                  "name": "Sport",
-                  "url": ""
-                },
-                {
-                  "name": "Beauty",
-                  "url": ""
-                },
-                {
-                  "name": "Home",
-                  "url": ""
-                },
-                {
-                  "name": "Kids",
-                  "url": ""
-                },
-                {
-                  "name": "Sneakerhub",
-                  "url": ""
-                }
-              ]
-            }
-
-          ],
-          "images":[
-            {
-              "header":"Shop Winter Essentials",
-              "url":"",
-              "image-url":"https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-            },
-            {
-              "header":"Office Wear Essentials",
-              "url":"",
-              "image-url":"https://plus.unsplash.com/premium_photo-1683141270544-05c8cc23f60c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
-            }
+            [
+              {
+                "name": "New In",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "This Month",
+                "url": ""
+              },
+              {
+                "name": "Trending",
+                "url": ""
+              },
+              {
+                "name": "Designer",
+                "url": ""
+              },
+              {
+                "name": "Resort Shop",
+                "url": ""
+              },
+              {
+                "name": "Only at THE ICONIC",
+                "url": ""
+              },
+              {
+                "name": "Best Sellers",
+                "url": ""
+              },
+              {
+                "name": "Back In Stock",
+                "url": ""
+              },
+              {
+                "name": "Winter Must Haves",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "New In From Our Range",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Sport",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop The Winter Edit",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/7j_X2UxxSImN58qgsgipyLyS6fA=/1600x1600/top/filters:fill(ffffff,1):quality(90):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2Fc9b67d5c-b003-433e-a1f0-5db7ba3c5bc2_NavTileDesk-Winter.jpg",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Resort Shop",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/8BpAGk7c-J4gFpAVHYm6ylvGRCg=/1600x1600/top/filters:fill(ffffff,1):quality(90):format(jpeg)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2Fb8709641-8c3a-4dc3-a8b3-01279d1c1db0_NavTileDesk.jpg",
+                "url": ""
+              }
+            ]
           ]
         },
         {
           "title": "Clothing",
           "submenu": [
-            {
-              "name": "Shop Clothing",
-              "url": ""
-            },
-            {
-              "name": "New Arrivals",
-              "url": ""
-            },
-            {
-              "name": "Sale",
-              "url": ""
-            },
-            {
-              "name": "Trending",
-              "url": ""
-            },
-            {
-              "name": "ONLY at THE ICONIC",
-              "url": ""
-            },
-            {
-              "name": "Back In Stock",
-              "url": ""
-            },
-            {
-              "name": "All Clothing",
-              "url": ""
-            },
-            {
-              "name": "Activewear",
-              "url": ""
-            },
-            {
-              "name": "Cloth & Jackets",
-              "url": ""
-            },
-            {
-              "name": "Dresses",
-              "url": ""
-            },
-            {
-              "name": "Jeans",
-              "url": ""
-            },
-            {
-              "name": "Jumpsuits & Playsuits",
-              "url": ""
-            },
-            {
-              "name": "Knitwear",
-              "url": ""
-            },
-            {
-              "name": "Lingerie",
-              "url": ""
-            },
-            {
-              "name": "Loungewear",
-              "url": ""
-            }
+            [
+              {
+                "name": "Shop Clothing",
+                "url": ""
+              },
+              {
+                "name": "New Arrivals",
+                "url": ""
+              },
+              {
+                "name": "Sale",
+                "url": ""
+              }
+            ]
+
           ]
         }
       ]
@@ -237,6 +206,82 @@
               "url": ""
             }
           ]
+        }
+      ]
+    }
+  ],
+  "footer":[
+    {
+      "header":"THE ICONIC",
+      "links":[
+        {
+          "name":"About Us",
+          "url":""
+        },
+        {
+          "name":"Acknowledgement Of Country",
+          "url":""
+        },
+        {
+          "name":"Affiliates",
+          "url":""
+        },
+        {
+          "name":"Partnerships",
+          "url":""
+        },
+        {
+          "name":"Influencers",
+          "url":""
+        },
+        {
+          "name":"Press",
+          "url":""
+        },
+        {
+          "name":"Careers",
+          "url":""
+        },
+        {
+          "name":"Terms & Conditions",
+          "url":""
+        },
+        {
+          "name":"Privacy Policy",
+          "url":""
+        }
+      ]
+    },
+    {
+      "header":"HELP & SUPPORT",
+      "links":[
+        {
+          "name":"FAQs & Contact",
+          "url":""
+        },
+        {
+          "name":"Delivery",
+          "url":""
+        },
+        {
+          "name":"Returns",
+          "url":""
+        },
+        {
+          "name":"Size Guide",
+          "url":""
+        },
+        {
+          "name":"Gift Cards",
+          "url":""
+        },
+        {
+          "name":"Fashion Glossary",
+          "url":""
+        },
+        {
+          "name":"Product Ideas",
+          "url":""
         }
       ]
     }

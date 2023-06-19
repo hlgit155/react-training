@@ -13,8 +13,8 @@ import {
   SubmenuItem,
   SubColumn,
   SubHeader,
-  ListItem
-
+  ListItem,
+  ImageWrap,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
@@ -37,7 +37,13 @@ function Header() {
   const pageNavbar =
     navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
     navbarMenu.find((navbar) => navbar.page === "women");
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
+  const [submenuIndex, setSubmenuIndex] = useState(0);
+
+  const handleHover = (index) => {
+    setShowNav(true);
+    setSubmenuIndex(index);
+  }
 
   return (
     <HeaderWrap>
@@ -60,8 +66,8 @@ function Header() {
             return (
               <NavbarItem
                 key={index}
-                onMouseEnter={() => setShowNav(true)}
-                onMouseLeave={() => setShowNav(true)}
+                onMouseEnter={() => handleHover(index)}
+                onMouseLeave={() => setShowNav(false)}
               >
                 {item.title}
               </NavbarItem>
@@ -72,28 +78,38 @@ function Header() {
       {showNav && (
         <SubmenuRow
           onMouseEnter={() => setShowNav(true)}
-          onMouseLeave={() => setShowNav(true)}
+          onMouseLeave={() => setShowNav(false)}
         >
           <SubmenuContainer>
             {/* <SubmenuItem></SubmenuItem> */}
-            {pageNavbar.menu[0].submenu.map((item, idx) => {
-            {/* return <SubmenuItem key={idx}>{item.name}</SubmenuItem>; */}
-            return (
-              <SubColumn key={idx}>
-              <SubHeader>{item.header}</SubHeader>
-              {item.list.map((listItem, index) => {return <ListItem>{listItem.name}</ListItem>})}
-              </SubColumn>
-              )
-          })}
-            {pageNavbar.menu[0].images.map((item,index) => {
+            {pageNavbar.menu[submenuIndex].submenu.map((item, idx) => {
+              {
+                /* return <SubmenuItem key={idx}>{item.name}</SubmenuItem>; */
+              }
+              return (
+                <SubColumn key={idx}>
+                  {item.map((listItem, index) => {
+                    return "header" in listItem ? (
+                      <SubHeader>{listItem.name}</SubHeader>
+                    ) : "image" in listItem ? (
+                      <ImageWrap><img src={listItem.image} width="400"></img></ImageWrap>
+                    ) : (
+                      <ListItem>{listItem.name}</ListItem>
+                    );
+                  })}
+                </SubColumn>
+              );
+            })}
+            {/* {pageNavbar.menu[0].images.map((item, index) => {
               return (
                 <SubColumn>
                   <SubHeader>{item.header}</SubHeader>
-                  <img src={item["image-url"]} width="300"></img>
+                  <ImageWrap>
+                    <img src={item["image-url"]}></img>
+                  </ImageWrap>
                 </SubColumn>
-                
-              )
-            })}
+              );
+            })} */}
           </SubmenuContainer>
         </SubmenuRow>
       )}

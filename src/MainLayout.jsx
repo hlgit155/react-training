@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import MainHome from "./pages/Home/MainHome";
 import WomenRoutes from "./routes/WomenRoutes";
 import NotFound from "./pages/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function MainLayout() {
   return (
@@ -13,6 +14,7 @@ function MainLayout() {
         <Route path="/women/*" element={<WomenRoutes/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
+      <Footer />
     </>
   );
 }
