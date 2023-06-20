@@ -32,23 +32,23 @@
     },
     {
       "title": "Men",
-      "url": ""
+      "url": "/men"
     },
     {
       "title": "Kids",
-      "url": ""
+      "url": "/kids"
     },
     {
       "title": "Sport",
-      "url": ""
+      "url": "/sport"
     },
     {
       "title": "Beauty",
-      "url": ""
+      "url": "/beauty"
     },
     {
       "title": "Home",
-      "url": ""
+      "url": "/home"
     }
   ],
   "navbar": [
@@ -154,6 +154,240 @@
             [
               {
                 "name": "Shop Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "New Arrivals",
+                "url": ""
+              },
+              {
+                "name": "Trending",
+                "url": ""
+              },
+              {
+                "name": "Only at THE ICONIC",
+                "url": ""
+              },
+              {
+                "name": "Back In Stock",
+                "url": ""
+              },
+              {
+                "name": "Sale",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "All Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Activewear",
+                "url": ""
+              },
+              {
+                "name": "Coats & Jackets",
+                "url": ""
+              },
+              {
+                "name": "Dresses",
+                "url": ""
+              },
+              {
+                "name": "Jeans",
+                "url": ""
+              },
+              {
+                "name": "Jumpsuits & Playsuits",
+                "url": ""
+              },
+              {
+                "name": "Knitwear",
+                "url": ""
+              },
+              {
+                "name": "Lingerie",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop By Range",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Adaptive",
+                "url": ""
+              },
+              {
+                "name": "Curve",
+                "url": ""
+              },
+              {
+                "name": "Considered",
+                "url": ""
+              },
+              {
+                "name": "Maternity",
+                "url": ""
+              },
+              {
+                "name": "Modest",
+                "url": ""
+              },
+              {
+                "name": "Petite",
+                "url": ""
+              },
+              {
+                "name": "Pre-Loved",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop By Brand",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "AERE",
+                "url": ""
+              },
+              {
+                "name": "Alemais",
+                "url": ""
+              },
+              {
+                "name": "Assembly Label",
+                "url": ""
+              },
+              {
+                "name": "Atmos&Here",
+                "url": ""
+              },
+              {
+                "name": "Blanca",
+                "url": ""
+              },
+              {
+                "name": "C&M Camilla and Marc",
+                "url": ""
+              },
+              {
+                "name": "Calli",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Embrace The Elements: Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/jhJTqAXVRLZKCHUEG0dZaReZfdU=/2656x2656/top/filters:fill(ffffff,1):quality(55):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2F5e12c12d-74ed-4f63-b2f5-dd4634074cb3_NavTileDesk-apparel.jpg",
+                "url": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page": "men",
+      "menu": [
+        {
+          "title": "New In",
+          "submenu": [
+            [
+              {
+                "name": "New In",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "This Month",
+                "url": ""
+              },
+              {
+                "name": "Trending Now",
+                "url": ""
+              },
+              {
+                "name": "Designer",
+                "url": ""
+              },
+              {
+                "name": "Exclusives",
+                "url": ""
+              },
+              {
+                "name": "Best Sellers",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "New In From Our Range",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Sport",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop Winter Essentials",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/wzYF__8mI95PKe0qjBLMD2zJszE=/1600x1600/top/filters:fill(ffffff,1):quality(45):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2F331bd383-11db-4004-8809-f19f44abce05_NavTileDesk-Winter.jpg",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Gorpcore 2.0",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/LV-NuAKuLv9VEqhSTH8SBfeCG9A=/1600x1600/top/filters:fill(ffffff,1):quality(45):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2F6109e581-6bad-48ba-ae3e-205067470033_NavTileDesk-M.jpg",
+                "url": ""
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Clothing",
+          "submenu": [
+            [
+              {
+                "name": "Shop Clothing",
                 "url": ""
               },
               {
@@ -165,7 +399,6 @@
                 "url": ""
               }
             ]
-
           ]
         }
       ]
@@ -210,80 +443,410 @@
       ]
     }
   ],
-  "footer":[
-    {
-      "header":"THE ICONIC",
-      "links":[
-        {
-          "name":"About Us",
-          "url":""
-        },
-        {
-          "name":"Acknowledgement Of Country",
-          "url":""
-        },
-        {
-          "name":"Affiliates",
-          "url":""
-        },
-        {
-          "name":"Partnerships",
-          "url":""
-        },
-        {
-          "name":"Influencers",
-          "url":""
-        },
-        {
-          "name":"Press",
-          "url":""
-        },
-        {
-          "name":"Careers",
-          "url":""
-        },
-        {
-          "name":"Terms & Conditions",
-          "url":""
-        },
-        {
-          "name":"Privacy Policy",
-          "url":""
-        }
-      ]
-    },
-    {
-      "header":"HELP & SUPPORT",
-      "links":[
-        {
-          "name":"FAQs & Contact",
-          "url":""
-        },
-        {
-          "name":"Delivery",
-          "url":""
-        },
-        {
-          "name":"Returns",
-          "url":""
-        },
-        {
-          "name":"Size Guide",
-          "url":""
-        },
-        {
-          "name":"Gift Cards",
-          "url":""
-        },
-        {
-          "name":"Fashion Glossary",
-          "url":""
-        },
-        {
-          "name":"Product Ideas",
-          "url":""
-        }
-      ]
+  "footer": {
+    "top": [
+      {
+        "header": "THE ICONIC",
+        "links": [
+          {
+            "name": "About Us",
+            "url": ""
+          },
+          {
+            "name": "Acknowledgement Of Country",
+            "url": ""
+          },
+          {
+            "name": "Affiliates",
+            "url": ""
+          },
+          {
+            "name": "Partnerships",
+            "url": ""
+          },
+          {
+            "name": "Influencers",
+            "url": ""
+          },
+          {
+            "name": "Press",
+            "url": ""
+          },
+          {
+            "name": "Careers",
+            "url": ""
+          },
+          {
+            "name": "Terms & Conditions",
+            "url": ""
+          },
+          {
+            "name": "Privacy Policy",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "header": "HELP & SUPPORT",
+        "links": [
+          {
+            "name": "FAQs & Contact",
+            "url": ""
+          },
+          {
+            "name": "Delivery",
+            "url": ""
+          },
+          {
+            "name": "Returns",
+            "url": ""
+          },
+          {
+            "name": "Size Guide",
+            "url": ""
+          },
+          {
+            "name": "Gift Cards",
+            "url": ""
+          },
+          {
+            "name": "Fashion Glossary",
+            "url": ""
+          },
+          {
+            "name": "Product Ideas",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "header": "FOLLOW US",
+        "links": [
+          {
+            "name": "Instagram",
+            "url": "",
+            "icon": ""
+          },
+          {
+            "name": "Facebook",
+            "url": "",
+            "icon": ""
+          },
+          {
+            "name": "Twitter",
+            "url": "",
+            "icon": ""
+          },
+          {
+            "name": "Pinterest",
+            "url": "",
+            "icon": ""
+          },
+          {
+            "name": "Youtube",
+            "url": "",
+            "icon": ""
+          }
+        ]
+      }
+    ],
+    "bottom-top-searches": {
+      "women": [
+        [
+          {
+            "name": "Forever New",
+            "url": ""
+          },
+          {
+            "name": "Nike",
+            "url": ""
+          },
+          {
+            "name": "Asics",
+            "url": ""
+          },
+          {
+            "name": "adidas",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Lee",
+            "url": ""
+          },
+          {
+            "name": "Ellesse",
+            "url": ""
+          },
+          {
+            "name": "Bonds",
+            "url": ""
+          },
+          {
+            "name": "Lorna Jane",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Alias Mae",
+            "url": ""
+          },
+          {
+            "name": "Dresses",
+            "url": ""
+          },
+          {
+            "name": "The Ordinary",
+            "url": ""
+          },
+          {
+            "name": "Makeup",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Ralph Lauren",
+            "url": ""
+          },
+          {
+            "name": "Seafolly",
+            "url": ""
+          },
+          {
+            "name": "Tony Bianco",
+            "url": ""
+          },
+          {
+            "name": "Converse",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Birkenstock",
+            "url": ""
+          },
+          {
+            "name": "Camilla & Marc",
+            "url": ""
+          },
+          {
+            "name": "Jumpsuits",
+            "url": ""
+          },
+          {
+            "name": "Gifts",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Swimwear",
+            "url": ""
+          },
+          {
+            "name": "Levi's",
+            "url": ""
+          },
+          {
+            "name": "Lioness",
+            "url": ""
+          },
+          {
+            "name": "SABA",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": " Tommy Hilfiger",
+            "url": ""
+          },
+          {
+            "name": "Skincare",
+            "url": ""
+          },
+          {
+            "name": "Calvin Klein",
+            "url": ""
+          },
+          {
+            "name": "Ray Ban",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Vans",
+            "url": ""
+          },
+          {
+            "name": "Puma",
+            "url": ""
+          },
+          {
+            "name": "Stussy",
+            "url": ""
+          },
+          {
+            "name": "P.E. Nation",
+            "url": ""
+          }
+        ]
+      ],
+      "men": [
+        [
+          {
+            "name": "Bonds",
+            "url": ""
+          },
+          {
+            "name": "T-Shirts",
+            "url": ""
+          },
+          {
+            "name": "Skechers",
+            "url": ""
+          },
+          {
+            "name": "Converse",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Ellesse",
+            "url": ""
+          },
+          {
+            "name": "Champion",
+            "url": ""
+          },
+          {
+            "name": "Tommy Hilfiger",
+            "url": ""
+          },
+          {
+            "name": "Calvin Klein",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Sunglasses",
+            "url": ""
+          },
+          {
+            "name": "Polo Ralph Lauren",
+            "url": ""
+          },
+          {
+            "name": "New Balance",
+            "url": ""
+          },
+          {
+            "name": "Vans",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Puma",
+            "url": ""
+          },
+          {
+            "name": "Ray Ban",
+            "url": ""
+          },
+          {
+            "name": "Dickies",
+            "url": ""
+          },
+          {
+            "name": "Daniel Wellington",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Fossil",
+            "url": ""
+          },
+          {
+            "name": "Status Anxiety",
+            "url": ""
+          },
+          {
+            "name": "Patagonia",
+            "url": ""
+          },
+          {
+            "name": "Ted Baker",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Lee",
+            "url": ""
+          },
+          {
+            "name": "Watches",
+            "url": ""
+          },
+          {
+            "name": "Superdry",
+            "url": ""
+          },
+          {
+            "name": "Champion",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "2XU",
+            "url": ""
+          },
+          {
+            "name": "Politix",
+            "url": ""
+          },
+          {
+            "name": "adidas Originals",
+            "url": ""
+          },
+          {
+            "name": "Stussy",
+            "url": ""
+          }
+        ],
+        [
+          {
+            "name": "Birkenstock",
+            "url": ""
+          },
+          {
+            "name": "ASICS",
+            "url": ""
+          },
+          {
+            "name": "Lacoste",
+            "url": ""
+          },
+          {
+            "name": "Ralph Lauren",
+            "url": ""
+          }
+        ]
+      ],
+      "kids": [],
+      "sport": [],
+      "beauty": [],
+      "home": []
     }
-  ]
+  }
 }

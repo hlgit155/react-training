@@ -37,7 +37,7 @@ function Header() {
   const pageNavbar =
     navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
     navbarMenu.find((navbar) => navbar.page === "women");
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(true);
   const [submenuIndex, setSubmenuIndex] = useState(0);
 
   const handleHover = (index) => {
@@ -67,7 +67,7 @@ function Header() {
               <NavbarItem
                 key={index}
                 onMouseEnter={() => handleHover(index)}
-                onMouseLeave={() => setShowNav(false)}
+                // onMouseLeave={() => setShowNav(false)}
               >
                 {item.title}
               </NavbarItem>
@@ -78,7 +78,7 @@ function Header() {
       {showNav && (
         <SubmenuRow
           onMouseEnter={() => setShowNav(true)}
-          onMouseLeave={() => setShowNav(false)}
+          // onMouseLeave={() => setShowNav(false)}
         >
           <SubmenuContainer>
             {/* <SubmenuItem></SubmenuItem> */}
@@ -92,7 +92,7 @@ function Header() {
                     return "header" in listItem ? (
                       <SubHeader>{listItem.name}</SubHeader>
                     ) : "image" in listItem ? (
-                      <ImageWrap><img src={listItem.image} width="400"></img></ImageWrap>
+                      <img src={listItem.image} width="100%"></img>
                     ) : (
                       <ListItem>{listItem.name}</ListItem>
                     );
@@ -100,16 +100,7 @@ function Header() {
                 </SubColumn>
               );
             })}
-            {/* {pageNavbar.menu[0].images.map((item, index) => {
-              return (
-                <SubColumn>
-                  <SubHeader>{item.header}</SubHeader>
-                  <ImageWrap>
-                    <img src={item["image-url"]}></img>
-                  </ImageWrap>
-                </SubColumn>
-              );
-            })} */}
+
           </SubmenuContainer>
         </SubmenuRow>
       )}
