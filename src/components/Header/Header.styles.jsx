@@ -69,7 +69,48 @@ export const NavbarItem = styled.div`
     }
 `;
 
-export const Submenu = styled.div`
-  padding: 3rem;
+export const SubmenuRow = styled.div`
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  padding-top: 16px 24px;
+  background-color: #fff;
+  transition: all .2s;
+`;
+
+export const SubmenuContainer = styled(CoreBoxWidth)`
+  display: flex;
   
+  justify-content: stretch; 
+  align-items: flex-start;
+  /* padding: 24px; */
+  background-color: lightgrey;
+`;
+
+export const SubmenuItem = styled(CoreBoxWidth)`
+  
+`;
+
+export const SubColumn = styled.div`
+  padding:24px;
+  max-width: 33%;
+`;
+
+export const SubHeader = styled.div`
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+`;
+
+export const ListItem = styled.div`
+  padding: 0.5rem 0;
+  font-weight: 200;
+`;
+
+export const ImageWrap = styled.div`
+  padding: 0.5rem 0;
+  object-fit: contain;
+  display: flex;
+  justify-content: stretch;
 `;

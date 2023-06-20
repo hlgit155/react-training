@@ -8,68 +8,116 @@ import {
   Logo,
   NavbarRow,
   NavbarItem,
-  Submenu
+  SubmenuRow,
+  SubmenuContainer,
+  SubColumn,
+  SubHeader,
+  ListItem,
+  ImageWrap,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
 import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
-  // const extraTopbarMenu = mainMenu.extratopbar;
-  // const topbarMenu = mainMenu.topbar;
-  // const navbarMenu = mainMenu.navbar;
   const {
     extratopbar: extraTopbarMenu,
     topbar: topbarMenu,
     navbar: navbarMenu,
   } = mainMenu;
-
-  // load navbar dynamically based on current 'pathname'
   const { pathname } = useLocation();
   const pathArr = pathname.split("/");
-  const pageNavbar = navbarMenu.find((navbar) => navbar.page === pathArr[1]) || navbarMenu.find((navbar) => navbar.page === 'women');
-  const flag = [false,false]
+  const pageNavbar =
+    navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
+    navbarMenu.find((navbar) => navbar.page === "women");
+  const [showNav, setShowNav] = useState(false);
+  const [submenuIndex, setSubmenuIndex] = useState(0);
 
+  const handleHover = (index) => {
+    setShowNav(true);
+    setSubmenuIndex(index);
+  };
 
   return (
-    <>
-      <HeaderWrap>
-        <ExtraTopbarWrap>
-          <ExtraTopbar>
-            {extraTopbarMenu.map((item, idx) => {
-              return <ExtraTopbarItem key={idx}>{item.title}</ExtraTopbarItem>;
-            })}
-          </ExtraTopbar>
-        </ExtraTopbarWrap>
-        <HeaderSection>
-          <TopbarRow>
-            <Logo />
-            <Topbar mainMenu={topbarMenu} />
-            {/* <TopbarOptions /> */}
-          </TopbarRow>
-          {/* <NavbarRow></NavbarRow> */}
-          <NavbarRow>
-            {pageNavbar.menu.map((item, index) => {
+    <HeaderWrap>
+      <ExtraTopbarWrap>
+        <ExtraTopbar>
+          {extraTopbarMenu.map((item, idx) => {
+            return <ExtraTopbarItem key={idx}>{item.title}</ExtraTopbarItem>;
+          })}
+        </ExtraTopbar>
+      </ExtraTopbarWrap>
+      <HeaderSection>
+        <TopbarRow>
+          <Logo />
+          <Topbar mainMenu={topbarMenu} />
+        </TopbarRow>
+        <NavbarRow>
+          {pageNavbar.menu.map((item, index) => {
+            return (
+              <NavbarItem
+                key={index}
+                onMouseEnter={() => handleHover(index)}
+                onMouseLeave={() => setShowNav(false)}
+              >
+                {item.title}
+              </NavbarItem>
+            );
+          })}
+        </NavbarRow>
+      </HeaderSection>
+      {showNav && (
+        <SubmenuRow
+          onMouseEnter={() => setShowNav(true)}
+          onMouseLeave={() => setShowNav(false)}
+        >
+          <SubmenuContainer>
+            {pageNavbar.menu[submenuIndex].submenu.map((item, idx) => {
               return (
-                <NavbarItem
-                  key={index}
-                  // onMouseEnter={() => handleShowNavbar(index)}
-                  // onMouseLeave={() => handleUnShowNavbar(index)}
-                >
-                  {item.title}
-                </NavbarItem>
+                <SubColumn key={idx}>
+                  {item.map((listItem, index) => {
+                    if ("header" in listItem) {
+                      return <SubHeader key={index}>{listItem.name}</SubHeader>;
+                    } else if ("image" in listItem) {
+                      return (
+                        <ListItem key={index}>
+                          <ImageWrap>
+                            <img
+                              src={listItem.image}
+                              width="100%"
+                              alt={listItem.name}
+                            />
+                          </ImageWrap>
+                        </ListItem>
+                      );
+                    } else if ("images" in listItem) {
+                      return (
+                        <div key={index}>
+                          {listItem.images.map((imageItem, imageIndex) => (
+                            <ListItem key={imageIndex}>
+                              <ImageWrap>
+                                <img
+                                  src={imageItem["image-url"]}
+                                  width="100%"
+                                  alt={imageItem.header}
+                                />
+                              </ImageWrap>
+                            </ListItem>
+                          ))}
+                        </div>
+                      );
+                    } else {
+                      return <ListItem key={index}>{listItem.name}</ListItem>;
+                    }
+                  })}
+                </SubColumn>
               );
             })}
-          </NavbarRow>
-        </HeaderSection>
-      </HeaderWrap>
-      <Submenu>
-        {pageNavbar.menu[1].submenu.map((item, index) => {
-          return <div key={index}>{item.name}</div>
-        })}
-      </Submenu>
-    </>
-
+          </SubmenuContainer>
+        </SubmenuRow>
+      )}
+    </HeaderWrap>
   );
 }
 
