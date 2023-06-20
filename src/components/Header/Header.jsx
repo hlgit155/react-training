@@ -67,7 +67,7 @@ function Header() {
               <NavbarItem
                 key={index}
                 onMouseEnter={() => handleHover(index)}
-                // onMouseLeave={() => setShowNav(false)}
+                onMouseLeave={() => setShowNav(false)}
               >
                 {item.title}
               </NavbarItem>
@@ -78,7 +78,7 @@ function Header() {
       {showNav && (
         <SubmenuRow
           onMouseEnter={() => setShowNav(true)}
-          // onMouseLeave={() => setShowNav(false)}
+          onMouseLeave={() => setShowNav(false)}
         >
           <SubmenuContainer>
             {/* <SubmenuItem></SubmenuItem> */}

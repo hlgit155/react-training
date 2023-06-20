@@ -27,7 +27,9 @@ import { useState } from "react";
 export default function Footer() {
   const footer = mainMenu.footer;
   const { pathname } = useLocation();
-  const currentSecondPath = pathname.split("/")[1];
+  const pathArr = pathname.split("/");
+  console.log("pathArr",pathArr)
+  // const currentSecondPath = pathname.split("/")[1];
 
   return (
     <OuterWrap>
@@ -64,10 +66,19 @@ export default function Footer() {
         <hr />
         <BottomWrap>
           <BottomHeader>
-            {"OUR TOP SEARCHES - " + currentSecondPath}
+            { pathArr[1] ==="" ? "OUR TOP SEARCHES" : "OUR TOP SEARCHES - " + pathArr[1] }
           </BottomHeader>
           <BottomColumnWrap>
-            {footer["bottom-top-searches"][currentSecondPath].map(
+            { pathArr[1] ==="" ? footer["bottom-top-searches"]["women"].map(
+              (item, index) => {
+                /* return <BottomItem>{item.name}</BottomItem>; */
+                return (<BottomColumn>
+                  {item.map((itm,idx) => {
+                    return <BottomItem>{itm.name}</BottomItem>
+                  })}
+                </BottomColumn>)
+              }
+            )  : footer["bottom-top-searches"][pathArr[1]].map(
               (item, index) => {
                 /* return <BottomItem>{item.name}</BottomItem>; */
                 return (<BottomColumn>
