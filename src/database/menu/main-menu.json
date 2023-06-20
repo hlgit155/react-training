@@ -409,35 +409,53 @@
         {
           "title": "New In",
           "submenu": [
-            {
-              "name": "New In",
-              "url": ""
-            },
-            {
-              "name": "This Month",
-              "url": ""
-            },
-            {
-              "name": "Trending",
-              "url": ""
-            }
+            [
+              {"name":"New In","header":true,"url":""},
+              {"name":"Baby","url":""},
+              {"name":"Kids","url":""},
+              {"name":"Teen","url":""},
+              {"name":"Toys & games","url":""}
+            ],
+            [
+              {"name":"Shop by Edit","header":true,"url":""},
+              {"name":"Characters","url":""},
+              {"name":"Considered","url":""},
+              {"name":"Everyday Basics","url":""},
+              {"name":"School Essentials","url":""},
+              {"name":"Sleepover Club","url":""},
+              {"name":"Sport","url":""},
+              {"name":"Swim Shop","url":""}
+            ],
+            [
+              {
+                "name": "Shop Winter Essentials",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/NkQavE9nDDdtL1Br2KtIOKig79o=/1600x1600/top/filters:fill(ffffff,1):quality(90):format(jpeg)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2Ffc162ba0-9e76-441d-8793-a38bdf156616_NavTile-Desktop.jpg",
+                "url": ""
+              }
+            ]
           ]
         },
         {
           "title": "Baby",
           "submenu": [
-            {
-              "name": "Shop Clothing",
-              "url": ""
-            },
-            {
-              "name": "New Arrivals",
-              "url": ""
-            },
-            {
-              "name": "Sale",
-              "url": ""
-            }
+            [
+              {
+                "name": "Shop Clothing",
+                "url": ""
+              },
+              {
+                "name": "New Arrivals",
+                "url": ""
+              },
+              {
+                "name": "Sale",
+                "url": ""
+              }
+            ]
           ]
         }
       ]

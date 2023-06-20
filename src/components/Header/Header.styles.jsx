@@ -115,3 +115,19 @@ export const ImageWrap = styled.div`
   justify-content: stretch;
 `;
 
+export const IconGroup = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const SVG = styled.svg`
+  fill: white;
+  height: 30px;
+  width: 30px;
+`;
+
+export const IconWrap = styled.div`
+  padding: 12px;
+`;
+
+

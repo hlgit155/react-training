@@ -11,14 +11,14 @@ export const Wrap = styled(CoreBoxWidth)`
   /* width: 100%;
   max-width: 1280px; */
   margin: 0 auto;
-  padding: 2.5rem 0;
+  padding: 2.5rem 24px;
 `;
 
 export const FooterWrap = styled.div`
   /* width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2.5rem 0; */
+  margin: 0 auto; */
+  padding: 2.5rem 0;
   /* background-color: black; */
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,7 @@ export const ColumnHeader = styled.div`
 `;
 
 export const FooterItem = styled.div`
-  color: white;
+  color: #FFFFFFB3;
   font-family: Proxima Nova, Sans-Serif;
   margin-bottom: 0.75rem;
 `;
@@ -46,12 +46,15 @@ export const BottomWrap = styled.div`
   color: white;
   font-family: Proxima Nova, Sans-Serif;
   margin-bottom: 0.75rem;
+  padding: 2.5rem 0;
 `;
 
 export const BottomHeader = styled.div`
   color: white;
   font-family: Proxima Nova, Sans-Serif;
+  font-weight: 600;
   margin-bottom: 0.75rem;
+  text-transform: uppercase;
 `;
 
 export const BottomColumn = styled.div`
@@ -65,7 +68,7 @@ export const BottomColumnWrap = styled.div`
 `;
 
 export const BottomItem = styled.div`
-  color: white;
+  color: #FFFFFFB3;
   font-family: Proxima Nova, Sans-Serif;
   margin-bottom: 0.75rem;
 `;
