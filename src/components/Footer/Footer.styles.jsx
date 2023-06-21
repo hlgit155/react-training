@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import { CoreBoxWidth } from "../../core/core.styles";
+// import { ReactComponent as GFGLogo } from "../../assets/footer/gfg-logo.png"
+import { ReactComponent as AppStoreLogo } from "../../assets/footer/app-store-badge.svg"
+import { ReactComponent as GooglePlayLogo } from "../../assets/footer/google-play-badge.svg"
+import { ReactComponent as IconicLogo } from "./../../assets/logo.svg";
+
 
 export const OuterWrap = styled.footer`
   background-color: black;
@@ -111,4 +116,43 @@ width: 20%;
 padding: 12px 4px 10px;
 margin-left: 8px;
 border: none;
+`;
+
+export const IcIconic = styled(IconicLogo)`
+  height: 14px;
+`;
+export const IcAppStore = styled(AppStoreLogo)`
+  height: 34px;
+`;
+export const IcGooglePlay = styled(GooglePlayLogo)`
+  height: 34px;
+`;
+export const FooterTradeMarkconGroupWrap = styled.div`
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+`;
+export const FooterTradeMarkconGroup = styled(CoreBoxWidth)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  
+`;
+export const GFGIconWrap = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  width:42%;
+`;
+export const IconicWrap = styled.div`
+  font-size: 14px;
+  width:16%;
+  display: flex;
+  justify-content: center;
+`;
+export const AppStoreGooglePlayWrap = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  width:42%;
 `;

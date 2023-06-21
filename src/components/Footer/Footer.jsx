@@ -18,7 +18,15 @@ import {
   Input,
   Button,
   BottomColumn,
-  BottomColumnWrap
+  BottomColumnWrap,
+  IcIconic,
+  IcAppStore,
+  IcGooglePlay,
+  FooterTradeMarkconGroupWrap,
+  FooterTradeMarkconGroup,
+  GFGIconWrap,
+  IconicWrap,
+  AppStoreGooglePlayWrap
 } from "./Footer.styles";
 import mainMenu from "../../database/menu/main-menu.json";
 import { useLocation } from "react-router-dom";
@@ -49,7 +57,7 @@ export default function Footer() {
           </LeftBox>
 
           <RightBox>
-          <ColumnHeader>STAY IN TOUCH</ColumnHeader>
+            <ColumnHeader>STAY IN TOUCH</ColumnHeader>
             <Message>Sign up to THE ICONIC News for your $20 voucher.*</Message>
             <SearchGroup>
               <Select name="gender" id="gender-select">
@@ -93,6 +101,21 @@ export default function Footer() {
 
         </BottomWrap>
       </Wrap>
+      <FooterTradeMarkconGroupWrap>
+        <FooterTradeMarkconGroup>
+          <GFGIconWrap>
+            <img src={require("../../assets/footer/gfg-logo.png")} height="34px"></img>
+          </GFGIconWrap>
+          <IconicWrap>
+            <IcIconic></IcIconic>
+          </IconicWrap>
+          <AppStoreGooglePlayWrap>
+            <IcAppStore></IcAppStore>
+            <IcGooglePlay></IcGooglePlay>
+          </AppStoreGooglePlayWrap>
+        </FooterTradeMarkconGroup>
+      </FooterTradeMarkconGroupWrap>
+
     </OuterWrap>
   );
 }
