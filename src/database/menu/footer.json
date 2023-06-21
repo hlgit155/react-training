@@ -1,0 +1,82 @@
+{
+  "top": [
+    {
+      "header": "The Iconic",
+      "menu": [
+        { "name": "About Us", "url": "" },
+        { "name": "Acknowledgement Of Country", "url": "" },
+        { "name": "Affiliates", "url": "" },
+        { "name": "Partnerships", "url": "" },
+        { "name": "Influencers", "url": "" },
+        { "name": "Press", "url": "" },
+        { "name": "Careers", "url": "" },
+        { "name": "Terms & Conditions", "url": "" },
+        { "name": "Privacy Policy", "url": "" },
+        { "name": "Coupons", "url": "" },
+        { "name": "People & Planet Positive", "url": "" },
+        { "name": "UNiDAYS", "url": "" }
+      ]
+    },
+    {
+      "header": "Help & Support",
+      "menu": [
+        { "name": "FAQs & Contact", "url": "" },
+        { "name": "Delivery", "url": "" },
+        { "name": "Returns", "url": "" },
+        { "name": "Size Guide", "url": "" },
+        { "name": "Gift Cards", "url": "" },
+        { "name": "Fashion Glossary", "url": "" },
+        { "name": "Product Ideas", "url": "" }
+      ]
+    },
+    {
+      "header": "Follow Us",
+      "menu": [
+        { "name": "Instagram", "url": "" },
+        { "name": "Facebook", "url": "" },
+        { "name": "Twitter", "url": "" },
+        { "name": "Pinterest", "url": "" },
+        { "name": "Youtube", "url": "" }
+      ]
+    }
+  ],
+  "bottom": {
+    "header": "Our Top Searches - ",
+    "section": [
+      {
+        "page": "women",
+        "menu": [
+          [
+            ["Forever New", "Nike", "Asics", "adidas"],
+            ["Lee", "Ellesse", "Bonds", "Lorna Jane"],
+            ["Alias Mae", "Dresses", "The Ordinary", "Makeup"],
+            ["Ralph Lauren", "Seafolly", "Tony Bianco", "Converse"]
+          ],
+          [
+            ["Birkenstock", "Camilla & Marc", "Jumpsuits", "Gifts"],
+            ["Swimwear", "Levi's", "Lioness", "SABA"],
+            ["Tommy Hilfiger", "Skincare", "Calvin Klein", "Ray Ban"],
+            ["Vans", "Puma", "Stussy", "P.E. Nation"]
+          ]
+        ]
+      },
+      {
+        "page": "kids",
+        "menu": [
+          [
+            ["Forever New", "Nike", "Asics", "adidas"],
+            ["Lee", "Ellesse", "Bonds", "Lorna Jane"],
+            ["Alias Mae", "Dresses", "The Ordinary", "Makeup"],
+            ["Ralph Lauren", "Seafolly", "Tony Bianco", "Converse"]
+          ],
+          [
+            ["Birkenstock", "Camilla & Marc", "Jumpsuits", "Gifts"],
+            ["Swimwear", "Levi's", "Lioness", "SABA"],
+            ["Tommy Hilfiger", "Skincare", "Calvin Klein", "Ray Ban"],
+            ["Vans", "Puma", "Stussy", "P.E. Nation"]
+          ]
+        ]
+      }
+    ]
+  }
+}
