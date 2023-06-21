@@ -151,18 +151,125 @@
         {
           "title": "Clothing",
           "submenu": [
-            {
-              "name": "Shop Clothing",
-              "url": ""
-            },
-            {
-              "name": "New Arrivals",
-              "url": ""
-            },
-            {
-              "name": "Sale",
-              "url": ""
-            }
+            [
+              {
+                "name": "Shop Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "New Arrivals",
+                "url": ""
+              },
+              {
+                "name": "Trending",
+                "url": ""
+              },
+              {
+                "name": "Only at THE ICONIC",
+                "url": ""
+              },
+              {
+                "name": "Back In Stock",
+                "url": ""
+              },
+              {
+                "name": "Sale",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "All Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Activewear",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop By Range",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Activewear",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Shop By Brand",
+                "url": "",
+                "header": true
+              },
+              {
+                "name": "Activewear",
+                "url": ""
+              },
+              {
+                "name": "Beauty",
+                "url": ""
+              },
+              {
+                "name": "Home",
+                "url": ""
+              },
+              {
+                "name": "Kids",
+                "url": ""
+              },
+              {
+                "name": "Sneakerhub",
+                "url": ""
+              }
+            ],
+            [
+              {
+                "name": "Embrace The Elements: Clothing",
+                "url": "",
+                "header": true
+              },
+              {
+                "image": "https://img1.theiconic.com.au/jhJTqAXVRLZKCHUEG0dZaReZfdU=/2656x2656/top/filters:fill(ffffff,1):quality(55):format(webp)/https%3A%2F%2Fimages.prismic.io%2Ftheiconic-content-service%2F5e12c12d-74ed-4f63-b2f5-dd4634074cb3_NavTileDesk-apparel.jpg",
+                "url": ""
+              }
+            ]
           ]
         }
       ]
