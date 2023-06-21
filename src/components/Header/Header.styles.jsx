@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { CoreBoxWidth } from "../../core/core.styles";
 import { ReactComponent as AssetLogo } from "./../../assets/logo.svg";
+import { ReactComponent as IcBag } from "../../assets/Header/icon-bag.svg"
+import { ReactComponent as IcSearch } from "../../assets/Header/icon-search.svg"
+import { ReactComponent as IcUser } from "../../assets/Header/icon-user.svg"
+import { ReactComponent as IcWishlist } from "../../assets/Header/icon-wishlist.svg"
 
 export const HeaderWrap = styled.header`
   width: 100%;
@@ -130,4 +134,23 @@ export const IconWrap = styled.div`
   padding: 12px;
 `;
 
-
+export const IconBag = styled(IcBag)`
+  fill: white;
+  height: 30px;
+  width: 30px;
+`;
+export const IconSearch = styled(IcSearch)`
+  fill: white;
+  height: 30px;
+  width: 30px;
+`;
+export const IconUser = styled(IcUser)`
+  fill: white;
+  height: 30px;
+  width: 30px;
+`;
+export const IconWishlist = styled(IcWishlist)`
+  fill: white;
+  height: 30px;
+  width: 30px;
+`;
