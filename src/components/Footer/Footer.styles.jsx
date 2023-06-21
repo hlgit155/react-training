@@ -159,6 +159,6 @@ export const WFCenter = styled.div`
 `;
 
 export const WFRight = styled.div`
-  margin-right: 0;
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 `;
