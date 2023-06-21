@@ -134,8 +134,8 @@ export const FooterTradeMarkconGroupWrap = styled.div`
   justify-content: center;
 `;
 export const FooterTradeMarkconGroup = styled(CoreBoxWidth)`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 42% 16% 42%;
   align-items: center;
   padding: 16px 24px;
   
@@ -143,16 +143,16 @@ export const FooterTradeMarkconGroup = styled(CoreBoxWidth)`
 export const GFGIconWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-  width:42%;
+  
 `;
 export const IconicWrap = styled.div`
-  font-size: 14px;
-  width:16%;
+  /* font-size: 14px; */
+  
   display: flex;
   justify-content: center;
 `;
 export const AppStoreGooglePlayWrap = styled.div`
   display: flex;
   justify-content: flex-end;
-  width:42%;
+  
 `;
