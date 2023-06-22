@@ -52,6 +52,7 @@ function Header() {
         <TopbarRow>
           <Logo />
           <Topbar mainMenu={topbarMenu} />
+          {/* Note: Add icons */}
         </TopbarRow>
         <NavbarRow>
           {pageNavbar.menu.map((item, index) => {

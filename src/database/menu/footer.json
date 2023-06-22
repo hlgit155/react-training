@@ -1,0 +1,263 @@
+{
+  "top": [
+    {
+      "title": "THE ICONIC",
+
+      "options": [
+        {
+          "name": "About Us",
+          "url": ""
+        },
+        {
+          "name": "Acknowledgement of Country",
+          "url": ""
+        },
+        {
+          "name": "Affiliates",
+          "url": ""
+        },
+        {
+          "name": "Partnerships",
+          "url": ""
+        },
+        {
+          "name": "Influencers",
+          "url": ""
+        },
+        {
+          "name": "Press",
+          "url": ""
+        },
+        {
+          "name": "Careers",
+          "url": ""
+        },
+        {
+          "name": "Terms & Conditions",
+          "url": ""
+        },
+        {
+          "name": "Privacy Policy",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "HELP & SUPPORT",
+
+      "options": [
+        {
+          "name": "FAQs & Contact",
+          "url": ""
+        },
+        {
+          "name": "Delivery",
+          "url": ""
+        },
+        {
+          "name": "Returns",
+          "url": ""
+        },
+        {
+          "name": "Size Guide",
+          "url": ""
+        },
+        {
+          "name": "Gift Cards",
+          "url": ""
+        },
+        {
+          "name": "Fashion Glossary",
+          "url": ""
+        },
+        {
+          "name": "Product Ideas",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "FOLLOW US",
+
+      "options": [
+        {
+          "name": "Instagram",
+          "url": ""
+        },
+        {
+          "name": "Facebook",
+          "url": ""
+        },
+        {
+          "name": "Twitter",
+          "url": ""
+        },
+        {
+          "name": "Pinterest",
+          "url": ""
+        },
+        {
+          "name": "Youtube",
+          "url": ""
+        }
+      ]
+    }
+  ],
+
+  "bottom": [
+    {
+      "title": "OUR TOP SEARCHES",
+
+      "options": [
+        [
+          [
+            {
+              "name": "Levi's",
+              "url": ""
+            },
+            {
+              "name": "adidas",
+              "url": ""
+            },
+            {
+              "name": "Makeup",
+              "url": ""
+            },
+            {
+              "name": "Ben Sherman",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Birkenstock",
+              "url": ""
+            },
+            {
+              "name": "Camilla",
+              "url": ""
+            },
+            {
+              "name": "Country Road",
+              "url": ""
+            },
+            {
+              "name": "Shoes",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Converse",
+              "url": ""
+            },
+            {
+              "name": "Aesop",
+              "url": ""
+            },
+            {
+              "name": "Vans",
+              "url": ""
+            },
+            {
+              "name": "Forever New",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Witchery",
+              "url": ""
+            },
+            {
+              "name": "Skincare",
+              "url": ""
+            },
+            {
+              "name": "Herschel",
+              "url": ""
+            },
+            {
+              "name": "Lacoste",
+              "url": ""
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "name": "Lorna Jane",
+              "url": ""
+            },
+            {
+              "name": "New Balance",
+              "url": ""
+            },
+            {
+              "name": "Nike",
+              "url": ""
+            },
+            {
+              "name": "Swimwear",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Calvin-Klein",
+              "url": ""
+            },
+            {
+              "name": "Ray-Ban",
+              "url": ""
+            },
+            {
+              "name": "Puma",
+              "url": ""
+            },
+            {
+              "name": "Polo Ralph Lauren",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Sneakers",
+              "url": ""
+            },
+            {
+              "name": "Sandals",
+              "url": ""
+            },
+            {
+              "name": "ASICS",
+              "url": ""
+            },
+            {
+              "name": "Dresses",
+              "url": ""
+            }
+          ],
+          [
+            {
+              "name": "Jeans",
+              "url": ""
+            },
+            {
+              "name": "Tommy Hilfiger",
+              "url": ""
+            },
+            {
+              "name": "Tony Blanco",
+              "url": ""
+            },
+            {
+              "name": "P.E. Nation",
+              "url": ""
+            }
+          ]
+        ]
+      ]
+    }
+  ]
+}
