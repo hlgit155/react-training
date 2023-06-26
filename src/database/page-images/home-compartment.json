@@ -1,36 +1,36 @@
 {
   "content":[
     {
-      "type":"img-medium",
+      "type":"image",
       "group":[
         {
-          "image":"",
+          "image":"https://images.prismic.io/theiconic-content-service/ee85befa-11d5-45fb-9a9d-9e29dc6e47a7_EOSS-Bundles-SkinnyDesktop-U.gif?auto=compress,format&amp;h=329&amp",
           "url":""
         }
       ]
     },
     {
-      "type":"img-large",
+      "type":"image",
       "group":[
         {
-          "image":"",
+          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "inImageText":"Shop women's",
           "url":""
         },
         {
-          "image":"",
+          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "inImageText":"Shop men's",
           "url":""
         },
         {
-          "image":"",
+          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "inImageText":"Shop kids",
           "url":""
         }
       ]
     },
     {
-      "type":"text",
+      "type":"text-link",
       "group":[
         {
           "text":"NEW HERE? $20 OFF YOUR FIRST PURCHASE",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "type":"img-medium",
+      "type":"image",
       "group":[
         {
           "image":"",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "type":"img-large",
+      "type":"image",
       "group":[
         {
           "image":"",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "type":"img-medium",
+      "type":"image",
       "group":[
         {
           "image":"",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "type":"img-text-beneath",
+      "type":"image",
       "title":"Shop by Category",
       "group":[
         {
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "type":"img-large",
+      "type":"image",
       "title":"Shop brands",
       "group":[
         {
