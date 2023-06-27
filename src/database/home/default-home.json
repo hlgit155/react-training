@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "stack": [
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/ee85befa-11d5-45fb-9a9d-9e29dc6e47a7_EOSS-Bundles-SkinnyDesktop-U.gif?auto=compress,format&h=329&w=2560",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "stack": [
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&h=1110&w=832",
+          "url": "",
+          "imageText": "Shop Women's",
+          "imageTextPosition": "bottom"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/801b3436-db79-4086-b29b-0437563c88f7_HP-M-Desktop.jpg?auto=compress,format&h=1110&w=832",
+          "url": "",
+          "imageText": "Shop Men's",
+          "imageTextPosition": "bottom"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/80253cc0-fe92-497e-8963-07813dd0637f_HP-K-Desktop.jpg?auto=compress,format&h=1110&w=832",
+          "url": "",
+          "imageText": "Shop Kids's",
+          "imageTextPosition": "bottom"
+        }
+      ],
+      "maxImageRow": "1",
+      "columnParity": ""
+    }
+  ],
+  "promotionText": ""
+}

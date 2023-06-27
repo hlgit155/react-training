@@ -1,7 +1,12 @@
+import HomeCompartments from "../../components/Home/HomeCompartments";
+import pageData from "../../database/home/default-home.json";
+
 function MainHome() {
   return (
     <>
-      <div>Main Home</div>
+      {pageData.content.map((row, rowIndex) => {
+        return <HomeCompartments key={rowIndex} stack={row.stack} />;
+      })}
     </>
   );
 }
