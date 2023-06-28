@@ -1,4 +1,5 @@
 import {
+  CompartmentBox,
   CompartmentImage,
   CompartmentRow,
   CompartmentWrap,
@@ -11,13 +12,15 @@ export default function HomeCompartments(props) {
   return (
     <CompartmentRow>
       <CompartmentWrap>
-        {stack.map((block, index) => {
+        {stack.map((block, blcokIdx) => {
           return (
-            <CompartmentImage
-              src={block?.imageUrl}
-              alt="img"
-              numOfBlock={numOfBlock}
-            />
+            <CompartmentBox>
+              <CompartmentImage
+                src={block?.imageUrl}
+                alt="img"
+                numOfBlock={numOfBlock}
+              />
+            </CompartmentBox>
           );
         })}
       </CompartmentWrap>

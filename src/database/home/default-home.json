@@ -31,6 +31,18 @@
       ],
       "maxImageRow": "1",
       "columnParity": ""
+    },
+    {
+      "stack": [
+        {
+          "imageText": "New here? $20 off your first purchase",
+          "imageTextPosition": "center"
+        },
+        {
+          "imageText": "Get $20 credit when you refer a friend",
+          "imageTextPosition": "center"
+        }
+      ]
     }
   ],
   "promotionText": ""
