@@ -30,11 +30,11 @@ export default function HomeCompartment() {
   });
 
   return (
-    <HomeCompartmentWrap>
-      <HomeCompartmentCentered>
+    <HomeCompartmentWrap ref={widthRef}>
+      <HomeCompartmentCentered >
         {homeCompartmentData.content.map((imageGroup, index) => {
           return (
-            <Compartment ref={widthRef}>
+            <Compartment >
               {"title" in imageGroup && (
                 <CompartmentTitle>{imageGroup.title}</CompartmentTitle>
               )}
