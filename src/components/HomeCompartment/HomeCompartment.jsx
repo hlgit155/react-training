@@ -4,61 +4,49 @@ import homeCompartmentData from "../../database/page-images/home-compartment.jso
 import SizedImageTextBox from "../SizedImageTextBox/SizedImageTextBox";
 
 import {
-  HomeCompartmentWrap,
-  HomeCompartmentCentered,
-  Compartment,
+
+  CompartmentRow,
   CompartmentTitle,
+  Compartment,
+  Text,
+  CompartmentImage,
+  ImageHeader,
   ImageTextGroup,
+  ImageDescription,
 } from "./HomeCompartment.style";
 
-export default function HomeCompartment() {
-  const widthRef = useRef();
-  const [imageRowWidth, setImageRowWidth] = useState();
-
-  // This function get and update the width of the image row
-  const updateImageRowWidth = () => {
-    setImageRowWidth(widthRef.current.clientWidth);
-    console.log("width:", imageRowWidth);
-  };
-
-  useEffect(() => {
-    updateImageRowWidth();
-  });
-
-  useEffect(() => {
-    window.addEventListener("resize", updateImageRowWidth());
-  });
+export default function HomeCompartment(props) {
+  // const rowData = props.data
+  {
+    console.log("rowrow", props.data);
+  }
 
   return (
-    <HomeCompartmentWrap ref={widthRef}>
-      <HomeCompartmentCentered >
-        {homeCompartmentData.content.map((imageGroup, index) => {
+    <CompartmentRow>
+      {"title" in props.data && (
+        <CompartmentTitle>{props.data.title}</CompartmentTitle>
+      )}
+      <ImageTextGroup>
+        {props.data.group.map((item) => {
           return (
-            <Compartment >
-              {"title" in imageGroup && (
-                <CompartmentTitle>{imageGroup.title}</CompartmentTitle>
+            <Compartment
+              itemsPerRow={props.data["item-per-row"]}
+              text={item?.text}
+            >
+              {console.log("item", item?.text)}
+              {"text" in item && <Text>{item.text}</Text>}
+              {"image" in item && <CompartmentImage src={item.image}></CompartmentImage>}
+              
+              {"imageHeader" in item && item.textPosition === "below" && (
+                <ImageHeader>{item.imageHeader}</ImageHeader>
               )}
-              <ImageTextGroup >
-                {imageGroup.group.map((img, idx) => {
-                  return (
-                    <SizedImageTextBox 
-                      src={img.image}
-                      width={
-                          ((imageRowWidth -
-                            24 * (imageGroup["item-per-row"] - 1)) *
-                            img.percent) /
-                          100
-                      }
-                      img={img}
-                    >
-                    </SizedImageTextBox>
-                  );
-                })}
-              </ImageTextGroup>
+              {"description" in item && (
+                <ImageDescription>{item.description}</ImageDescription>
+              )}
             </Compartment>
           );
         })}
-      </HomeCompartmentCentered>
-    </HomeCompartmentWrap>
+      </ImageTextGroup>
+    </CompartmentRow>
   );
 }
