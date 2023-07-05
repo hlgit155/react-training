@@ -4,7 +4,7 @@
       "stack": [
         {
           "imageUrl": "https://images.prismic.io/theiconic-content-service/ee85befa-11d5-45fb-9a9d-9e29dc6e47a7_EOSS-Bundles-SkinnyDesktop-U.gif?auto=compress,format&h=329&w=2560",
-          "url": ""
+          "link": ""
         }
       ]
     },
@@ -12,38 +12,175 @@
       "stack": [
         {
           "imageUrl": "https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&h=1110&w=832",
-          "url": "",
+          "link": "",
           "imageText": "Shop Women's",
-          "imageTextPosition": "bottom"
+          "textAlignment": "bottom"
         },
         {
           "imageUrl": "https://images.prismic.io/theiconic-content-service/801b3436-db79-4086-b29b-0437563c88f7_HP-M-Desktop.jpg?auto=compress,format&h=1110&w=832",
-          "url": "",
+          "link": "",
           "imageText": "Shop Men's",
-          "imageTextPosition": "bottom"
+          "textAlignment": "bottom"
         },
         {
           "imageUrl": "https://images.prismic.io/theiconic-content-service/80253cc0-fe92-497e-8963-07813dd0637f_HP-K-Desktop.jpg?auto=compress,format&h=1110&w=832",
-          "url": "",
+          "video": "https://player.vimeo.com/progressive_redirect/playback/838517303/rendition/540p/file.mp4?loc=external&oauth2_token_id=1106375570&signature=87d1d9294d6c2686d76f236d2b0a7c3eda24be8256331591b910560e31addb07",
+          "link": "",
           "imageText": "Shop Kids's",
-          "imageTextPosition": "bottom"
+          "textAlignment": "bottom"
         }
-      ],
-      "maxImageRow": "1",
-      "columnParity": ""
+      ]
     },
     {
       "stack": [
         {
           "imageText": "New here? $20 off your first purchase",
-          "imageTextPosition": "center"
+          "textAlignment": "center"
         },
         {
           "imageText": "Get $20 credit when you refer a friend",
-          "imageTextPosition": "center"
+          "textAlignment": "center"
         }
       ]
+    },
+    {
+      "stack": [
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=832",
+          "link": ""
+        },
+        {
+          "videoUrl": "https://player.vimeo.com/progressive_redirect/playback/838517303/rendition/540p/file.mp4?loc=external&oauth2_token_id=1106375570&signature=87d1d9294d6c2686d76f236d2b0a7c3eda24be8256331591b910560e31addb07",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "title": "Shop by Category",
+      "stack": [
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/5b5aa365-0355-415e-a4d4-54e3c5558633_HP-tile1.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Sport"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/adcf7bff-fdd9-4f04-be33-ba8ce668c74b_Frame+17.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Beauty"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/886b71c9-8ab2-4f31-a78d-1d2002a61cb9_Frame+15.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Women's Designer"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/4f938571-7d8c-467e-aeb9-be056c3ff6ec_4-HP-MD.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Men's Designer"
+        },
+
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/73942e03-4130-4e4a-9d02-80f8893464fe_Frame+18.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Considered"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/968a00bc-bf6a-4db8-a2a6-3dd1bb1dfa75_6-HP-SH.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Sneakerhub"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/c1fc8d94-ed9a-4a98-98b1-d2efd91319a8_7-HP-Toys.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Toys"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/4db54919-ad78-4af3-83e6-7b6f10162a29_8-HP-H.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "heading": "Home"
+        }
+      ],
+      "maxBlockInRow": "4",
+      "lineBreak": true,
+      "columnParity": ""
+    },
+    {
+      "title": "Shop by Brand",
+      "stack": [
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/08bf9bab-04d0-437a-85c4-a72727d3301f_1A.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": "https://images.prismic.io/theiconic-content-service/46828122-c511-4636-a6ea-ccc7b0fb76bb_1B.jpg?auto=compress,format&h=1280&w=640"
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/adcf7bff-fdd9-4f04-be33-ba8ce668c74b_Frame+17.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/886b71c9-8ab2-4f31-a78d-1d2002a61cb9_Frame+15.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/4f938571-7d8c-467e-aeb9-be056c3ff6ec_4-HP-MD.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/73942e03-4130-4e4a-9d02-80f8893464fe_Frame+18.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/968a00bc-bf6a-4db8-a2a6-3dd1bb1dfa75_6-HP-SH.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/c1fc8d94-ed9a-4a98-98b1-d2efd91319a8_7-HP-Toys.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/4db54919-ad78-4af3-83e6-7b6f10162a29_8-HP-H.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/73942e03-4130-4e4a-9d02-80f8893464fe_Frame+18.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/968a00bc-bf6a-4db8-a2a6-3dd1bb1dfa75_6-HP-SH.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/c1fc8d94-ed9a-4a98-98b1-d2efd91319a8_7-HP-Toys.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        },
+        {
+          "imageUrl": "https://images.prismic.io/theiconic-content-service/4db54919-ad78-4af3-83e6-7b6f10162a29_8-HP-H.jpg?auto=compress,format&h=1280&w=640",
+          "link": "",
+          "hoverImage": ""
+        }
+      ],
+      "maxBlockInRow": "6",
+      "button": {
+        "name": "Shop All Brands",
+        "url": ""
+      },
+      "lineBreak": true,
+      "columnParity": ""
     }
   ],
-  "promotionText": ""
+  "promotionText": {
+    "title": "Shop for the latest clothes online, sportswear, beauty and shoes online",
+    "description": "<p>THE ICONIC delivers a stylish and current collection of men, women and kids apparel sourced from the most coveted Australian and international brands. With everything from dresses to jeans, ankle boots to sneakers, watches to wallets, beauty essentials and toys, our selection of over 20,000 products has something for every style.</p><p>Boost your basics and browse through our edit of off-duty essentials. From denim to jersey, button-up shirts to chino shorts, our apparel edits offer something for every style. Scan through our selection of women’s dresses, from elegant cocktail dresses to glamorous gowns and party-perfect shifts, or our collection of suits and blazers.</p><p>Put your best foot forward with a new pair of shoes. Whether you're after flats or heels, dress shoes or ankle boots, THE ICONIC's selection of footwear will instantly elevate any outfit. Protect yourself from the elements, looking through our range of knitwear, jackets and coats, choosing from classic monochrome designs and brightly patterned pieces. Pull together off-duty outfits with our range of accessories. Keep it casual with beanies and soft knitted scarves or lend instant elegance to outfits with a premium leather bag or designer watch.</p><p>Rejuvenate your skincare regime with nourishing moisturisers and cleansers. Add swipes of lipstick and face makeup for your evening glow-up or spritz yourself with fragrant perfume from THE ICONIC’s growing offering of beauty and wellness products. THE ICONIC boasts a range of toys and games for kids, from dolls and plush toys, to action figures and puzzles. </p><p>Add to your kid’s clothing lineup with baby bodysuits, dresses, jumpers, leggings and more. With a stylish selection of clothes, shoes, activewear, toys and beauty products online, THE ICONIC is your one-stop-shop for your lifestyle essentials."
+  }
 }
