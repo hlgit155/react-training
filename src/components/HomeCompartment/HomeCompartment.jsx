@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import homeCompartmentData from "../../database/page-images/home-compartment.json";
-import SizedImageTextBox from "../SizedImageTextBox/SizedImageTextBox";
+
 
 import {
 
@@ -13,24 +12,26 @@ import {
   ImageHeader,
   ImageTextGroup,
   ImageDescription,
+  CompartmentButton
 } from "./HomeCompartment.style";
 
 export default function HomeCompartment(props) {
+  const { data } = props;
   // const rowData = props.data
   {
-    console.log("rowrow", props.data);
+    console.log("rowrow", data);
   }
 
   return (
     <CompartmentRow>
-      {"title" in props.data && (
-        <CompartmentTitle>{props.data.title}</CompartmentTitle>
+      {"title" in data && (
+        <CompartmentTitle>{data.title}</CompartmentTitle>
       )}
-      <ImageTextGroup>
-        {props.data.group.map((item) => {
+      <ImageTextGroup hrStyled={data.hr}>
+        {data.group.map((item) => {
           return (
             <Compartment
-              itemsPerRow={props.data["item-per-row"]}
+              itemsPerRow={data["item-per-row"]}
               text={item?.text}
             >
               {console.log("item", item?.text)}
@@ -47,6 +48,8 @@ export default function HomeCompartment(props) {
           );
         })}
       </ImageTextGroup>
+      {"button" in data && <CompartmentButton>{data.button}</CompartmentButton>}
+      {"hr" in data && <hr style={{marginTop:"30px"}}></hr>}
     </CompartmentRow>
   );
 }

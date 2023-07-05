@@ -6,8 +6,7 @@
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/ee85befa-11d5-45fb-9a9d-9e29dc6e47a7_EOSS-Bundles-SkinnyDesktop-U.gif?auto=compress,format&amp;h=329&amp",
-          "url":"",
-          "percent":100
+          "url":""
         }
       ]
     },
@@ -20,24 +19,21 @@
           "imageHeader":"Think Pink",
           "textPosition": "below",
           "description": "Whether just a hint or head-to-toe, pink is always a good idea. Just ask their favourite doll...",
-          "url":"",
-          "percent":33.3
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Get Cosy",
           "textPosition": "below",
           "description": "The snug layers, soft knits and comfy staples they'll live in all winter long.",
-          "url":"",
-          "percent":33.3
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Just In: Marks & Spencer",
           "textPosition": "below",
           "description": "Discover dresses, jackets, knits and more new arrivals from the Marks & Spencer kids collection.",
-          "url":"",
-          "percent":33.3
+          "url":""
         }
       ]
     },
@@ -61,13 +57,11 @@
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":50
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":50
+          "url":""
         }
       ]
     },
@@ -77,13 +71,11 @@
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":50
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":50
+          "url":""
         }
       ]
     },
@@ -93,8 +85,7 @@
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":100
+          "url":""
         }
       ]
     },
@@ -102,62 +93,55 @@
       "type":"image",
       "item-per-row":4,
       "title":"Shop by Category",
+      "hr":true,
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Sport",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Beauty",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Women's designer",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Men's designer",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Considered",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Sneakerhub",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Toys",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
           "imageHeader":"Home",
           "textPosition": "below",
-          "url":"",
-          "percent":25
+          "url":""
         }
       ]
     },
@@ -165,68 +149,64 @@
       "type":"image",
       "item-per-row":6,
       "title":"Shop brands",
+      "hr":true,
+      "button":"SHOP ALL BRANDS",
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         },
         {
           "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":"",
-          "percent":16.66
+          "url":""
         }
       ]
     }
-  ]
+  ],
+  "bottom":{
+    "header":"Shop for the latest clothes online, sportswear, beauty and shoes online",
+    "para": 
+    "<p>THE ICONIC delivers a stylish and current collection of men, women and kids apparel sourced from the most coveted Australian and international brands. With everything from dresses to jeans, ankle boots to sneakers, watches to wallets, beauty essentials and toys, our selection of over 20,000 products has something for every style.</p><p>Boost your basics and browse through our edit of off-duty essentials. From denim to jersey, button-up shirts to chino shorts, our apparel edits offer something for every style. Scan through our selection of women’s dresses, from elegant cocktail dresses to glamorous gowns and party-perfect shifts, or our collection of suits and blazers.</p><p>Put your best foot forward with a new pair of shoes. Whether you're after flats or heels, dress shoes or ankle boots, THE ICONIC's selection of footwear will instantly elevate any outfit. Protect yourself from the elements, looking through our range of knitwear, jackets and coats, choosing from classic monochrome designs and brightly patterned pieces. Pull together off-duty outfits with our range of accessories. Keep it casual with beanies and soft knitted scarves or lend instant elegance to outfits with a premium leather bag or designer watch.</p><p>Rejuvenate your skincare regime with nourishing moisturisers and cleansers. Add swipes of lipstick and face makeup for your evening glow-up or spritz yourself with fragrant perfume from THE ICONIC’s growing offering of beauty and wellness products. THE ICONIC boasts a range of toys and games for kids, from dolls and plush toys, to action figures and puzzles.</p> <p>Add to your kid’s clothing lineup with baby bodysuits, dresses, jumpers, leggings and more. With a stylish selection of clothes, shoes, activewear, toys and beauty products online, THE ICONIC is your one-stop-shop for your lifestyle essentials.</p>"
+  
+  }
 }
