@@ -80,6 +80,7 @@ export const SubmenuRow = styled.div`
   padding-top: 16px 24px;
   background-color: #fff;
   transition: all .2s;
+  z-index: 10;
 `;
 
 export const SubmenuContainer = styled(CoreBoxWidth)`

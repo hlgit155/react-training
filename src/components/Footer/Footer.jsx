@@ -15,9 +15,19 @@ import {
   SearchGroup,
   Section,
   InnerSection,
-  BottomWrap,
+  BottomSection,
+  Iconic,
+  Apple,
+  Google,
+  FooterBottom,
+  Wraps,
+  IconicWrap,
+  AppleGoogleWrap,
+  GfgLogoWrap,
+  GfgLogoimg,
 } from "./Footer.styles";
 import footer from "../../database/menu/footer.json";
+import GfgLogo from "../../assets/Footer/gfg-logo.png";
 
 function Footer() {
   const { top, bottom } = footer;
@@ -27,24 +37,18 @@ function Footer() {
       <FooterWrap>
         <LeftContainer>
           {top.map((item, idx) => (
-            <Column>
-              <FooterWrapItem key={idx}>
-                <TitleFooter>
-                  <h4>{item.title}</h4>
-                </TitleFooter>
+            <FooterWrapItem key={idx}>
+              <TitleFooter>{item.title}</TitleFooter>
 
-                {item.options.map((option, index) => (
-                  <MenuItem key={index}>{option.name}</MenuItem>
-                ))}
-              </FooterWrapItem>
-            </Column>
+              {item.options.map((option, index) => (
+                <MenuItem key={index}>{option.name}</MenuItem>
+              ))}
+            </FooterWrapItem>
           ))}
         </LeftContainer>
 
         <RightContainer>
-          <TitleFooter>
-            <h4>STAY IN TOUCH</h4>
-          </TitleFooter>
+          <TitleFooter>STAY IN TOUCH</TitleFooter>
           <Text>Sign up to THE ICONIC News for your $20 Voucher.*</Text>
           <SearchGroup>
             <Select name="gender" id="select_gender">
@@ -63,34 +67,49 @@ function Footer() {
           <Text>* $20 voucher for new sign ups only.</Text>
         </RightContainer>
       </FooterWrap>
-      <hr />
+      <hr width="1248px" />
 
       {bottom.map((group, idx) => (
-        <BottomWrap>
-        <FooterWrapItem>
-          <TitleFooter>{group.title}</TitleFooter>
-          <Section>
-            {group.options.map((section, index) => {
-              console.log(section);
-              return (
-                <InnerSection key={index}>
-                  {section.map((innerOption, index) => (
-                    <Column>
-                      {innerOption.map((item) => {
-                        return(
+        <FooterWrap>
+          <FooterWrapItem style={{ padding: 0 }}>
+            <TitleFooter style={{ paddingLeft: 8, paddingRight: 8 }}>
+              {group.title}
+            </TitleFooter>
+            <Section>
+              {group.options.map((section, index) => {
+                console.log(section);
+                return (
+                  <InnerSection key={index}>
+                    {section.map((innerOption, index) => (
+                      <Column>
+                        {innerOption.map((item) => (
                           <MenuItem key={index}>{item.name}</MenuItem>
-                        );
-                        ;
-                      })}
-                    </Column>
-                  ))}
-                </InnerSection>
-              );
-            })}
-          </Section>
-        </FooterWrapItem>
-        </BottomWrap>
+                        ))}
+                      </Column>
+                    ))}
+                  </InnerSection>
+                );
+              })}
+            </Section>
+          </FooterWrapItem>
+        </FooterWrap>
       ))}
+      <BottomSection>
+        <FooterBottom>
+          <Wraps>
+            <GfgLogoWrap>
+              <GfgLogoimg src={GfgLogo} alt="gfg-logo" />
+            </GfgLogoWrap>
+            <IconicWrap>
+              <Iconic></Iconic>
+            </IconicWrap>
+            <AppleGoogleWrap>
+              <Apple></Apple>
+              <Google></Google>
+            </AppleGoogleWrap>
+          </Wraps>
+        </FooterBottom>
+      </BottomSection>
     </OuterWrap>
   );
 }

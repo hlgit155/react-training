@@ -42,10 +42,7 @@ const SubListTitle = styled.div`
     font-weight: bold;
 `
 
-const WomenContent = styled.div`
-    background-color: #EDEDEE;
-    height: 2000px;
-`
+
 
 const SubMenuItem = styled.div`
     color: #4d4d4d;
