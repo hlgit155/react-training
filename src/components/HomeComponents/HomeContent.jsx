@@ -1,5 +1,4 @@
 import React from "react";
-import homePage from "../../database/home-page.json";
 import {
   RowWrap,
   Images,
@@ -11,19 +10,15 @@ import {
   MiniRowWrap,
   ImageWrap,
   Title,
-  TextWrap,
-  ParagraphWrap,
-  TextTitle,
-  TextContent,
   HR,
 } from "./HomeContent.styles";
 
-function HomeContent() {
-  console.log(homePage);
+const HomeContent = (props) => {
+    const homeData = props.homeData;
 
   return (
     <>
-      {homePage.content.map((imageNum, imageIndex) => (
+      {homeData.content.map((imageNum, imageIndex) => (
         <RowWrap key={imageIndex}>
           {imageNum.map((item, index) => {
             if ("image" in item) {
@@ -42,10 +37,11 @@ function HomeContent() {
                   <video
                     width="100%"
                     height="100%"
+                    controls="false"
                     autoPlay="true"
                     loop="true"
                   >
-                    <source src={item?.video} type="video/mp4"/>
+                    <source src={item?.video} type="video/mp4" />
                   </video>
                 </Wraps>
               );
@@ -62,34 +58,36 @@ function HomeContent() {
                   {item.submenu.map((submenuItem, idx) => {
                     return (
                       <MiniRowWrap key={idx} rowLength={submenuItem.length}>
-                        {submenuItem.map((item, index) => (
-                          <ImageWrap key={index}>
+                        {submenuItem.map((item, index) => {
+                          if ("image" in item) {
+                            return(
+                                <ImageWrap key={index}>
+                            
                             <Images src={item.image} alt="" />
                             {item.footer && (
                               <FooterStyle>{item.footer}</FooterStyle>
                             )}
                           </ImageWrap>
-                        ))}
+                            );
+                          } else if ("video" in item) {
+                            return (
+                                <ImageWrap key={index}>
+                            <video width="100%" controls="false" autoPlay="true" loop="true">
+                                <source src={item?.video} type="video/mp4" />
+                            </video>
+                            {item.footer && (
+                              <FooterStyle>{item.footer}</FooterStyle>
+                            )}
+                          </ImageWrap>
+
+                            );
+                          }
+                  })}
                       </MiniRowWrap>
                     );
                   })}
                   <HR />
                 </BottomWrap>
-              );
-            } else if ("options" in item) {
-              return (
-                <ParagraphWrap key={index}>
-                  <TextTitle>{item.title}</TextTitle>
-                  {item.options.map((textItem, textIndex) => {
-                    return (
-                      <TextWrap key={textIndex}>
-                        {textItem.map((text, index) => (
-                          <TextContent key={index}>{text.text}</TextContent>
-                        ))}
-                      </TextWrap>
-                    );
-                  })}
-                </ParagraphWrap>
               );
             }
 
@@ -99,9 +97,20 @@ function HomeContent() {
       ))}
     </>
   );
-}
+};
 
 export default HomeContent;
+
+
+{/* <ImageWrap key={index}>
+                            <video width="100%" height="100%" controls="false" autoPlay="true" loop="true">
+                                <source src={item?.video} type="video/mp4" />
+                            </video>
+                            <Images src={item.image} alt="" />
+                            {item.footer && (
+                              <FooterStyle>{item.footer}</FooterStyle>
+                            )}
+                          </ImageWrap> */}
 
 // return (
 //   <FirstRow key={idx}>
