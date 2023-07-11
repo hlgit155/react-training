@@ -162,8 +162,6 @@
       "type":"image",
       "item-per-row":6,
       "title":"Shop brands",
-      "hr":true,
-      "button":"SHOP ALL BRANDS",
       "group":[
         {
           "image":"https://images.prismic.io/theiconic-content-service/08bf9bab-04d0-437a-85c4-a72727d3301f_1A.jpg?auto=compress,format&h=1280&w=640",

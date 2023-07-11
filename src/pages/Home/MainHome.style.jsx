@@ -1,8 +1,8 @@
 import styled from "styled-components";
-
+import { CoreBoxWidth } from "../../core/core.styles";
 
 export const MainHomeWrap = styled.div`
-  padding: 48px 0 50px;
+  padding-top: 48px;
 `;
 
 export const ShopAllBrands = styled.div`
@@ -15,6 +15,11 @@ export const ShopAllBrands = styled.div`
   border-radius: 2px;
   margin: 0 auto 40px;
   width: 244px;
+`;
+
+export const Bottom = styled(CoreBoxWidth)`
+  margin: 0 auto;
+  padding: 0 24px 50px;
 `;
 
 export const BottomHeader = styled.div`

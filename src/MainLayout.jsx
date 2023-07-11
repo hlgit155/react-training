@@ -9,13 +9,13 @@ function MainLayout() {
   return (
     <>
       <Header />
-      <div style={{ paddingLeft: "24px", paddingRight: "24px", maxWidth: "1280px", margin: "0 auto" }}>
+
         <Routes>
           <Route path="/" element={<MainHome />} />
           <Route path="/women/*" element={<WomenRoutes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+
       <Footer />
     </>
   );

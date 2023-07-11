@@ -8,6 +8,11 @@ export const CompartmentRow = styled.div`
   margin-bottom: 48px;
 `;
 
+export const WidthContainer = styled(CoreBoxWidth)`
+  margin: 0 auto;
+  padding: 0 24px;
+`;
+
 export const CompartmentTitle = styled(CoreH1)`
   margin-bottom: 20px;
   font-size: 30px;

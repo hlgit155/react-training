@@ -6,10 +6,16 @@ import { CoreBoxWidth, CoreH1, CoreH2, CoreP} from "../../core/core.styles";
 
 
 export const CarouselContainer = styled.div`
-  background-color: grey;
+  background-color: #F5F5F5;
   width: 100%;
+  padding: 48px 0;
   /* display: flex;
   flex-direction: column; */
+`;
+
+export const WidthContainer = styled(CoreBoxWidth)`
+  margin: 0 auto;
+  padding: 0 24px;
 `;
 
 export const CarouselWrapper = styled.div`
