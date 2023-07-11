@@ -3,6 +3,7 @@ import { MainWrap, Content } from "./MainContent.styles";
 import { Route, Routes } from "react-router-dom";
 import MainHome from "../MainHome/MainHome";
 import WomenRoutes from "../../../routes/WomenRoutes";
+import KidsRoutes from "../../../routes/KidsRoutes";
 import NotFound from "../../NotFound";
 
 function MainContent() {
@@ -12,6 +13,7 @@ function MainContent() {
         <Routes>
           <Route path="/" element={<MainHome />} />
           <Route path="/women/*" element={<WomenRoutes />} />
+          <Route path="/kids/*" element={<KidsRoutes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Content>
@@ -20,3 +22,4 @@ function MainContent() {
 }
 
 export default MainContent;
+

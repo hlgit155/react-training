@@ -2,47 +2,71 @@
   "content": [
     [
       {
-        "image": "https://images.prismic.io/theiconic-content-service/fc04b2dd-6dba-4047-82cc-6032016a4441_SkinnySale-Discovermore-Desktop-U.jpg?auto=compress,format&h=329&w=2560",
-        "url": ""
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/fc04b2dd-6dba-4047-82cc-6032016a4441_SkinnySale-Discovermore-Desktop-U.jpg?auto=compress,format&h=329&w=2560",
+              "url": ""
+            }
+          ]
+        ]
       }
     ],
     [
       {
-        "image": "https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&fm=webp&h=1110&w=640",
-        "url": "",
-        "description": "SHOP WOMEN'S"
-      },
-      {
-        "image": "https://images.prismic.io/theiconic-content-service/801b3436-db79-4086-b29b-0437563c88f7_HP-M-Desktop.jpg?auto=compress,format&h=1110&w=640",
-        "url": "",
-        "description": "SHOP MEN'S"
-      },
-      {
-        "image": "https://images.prismic.io/theiconic-content-service/80253cc0-fe92-497e-8963-07813dd0637f_HP-K-Desktop.jpg?auto=compress,format&h=1110&w=640",
-        "url": "",
-        "description": "SHOP KIDS"
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&fm=webp&h=1110&w=640",
+              "url": "",
+              "description": "SHOP WOMEN'S"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/801b3436-db79-4086-b29b-0437563c88f7_HP-M-Desktop.jpg?auto=compress,format&h=1110&w=640",
+              "url": "",
+              "description": "SHOP MEN'S"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/80253cc0-fe92-497e-8963-07813dd0637f_HP-K-Desktop.jpg?auto=compress,format&h=1110&w=640",
+              "url": "",
+              "description": "SHOP KIDS"
+            }
+          ]
+        ]
       }
     ],
     [
       {
-        "name": "NEW HERE? $20 OFF YOUR FIRST PURCHASE",
-        "url": "",
-        "header": true
-      },
-      {
-        "name": "GET $20 CREDIT WHEN YOU REFER A FRIEND",
-        "url": "",
-        "header": true
+        "submenu": [
+          [
+            {
+              "name": "NEW HERE? $20 OFF YOUR FIRST PURCHASE",
+              "url": "",
+              "header": true
+            },
+            {
+              "name": "GET $20 CREDIT WHEN YOU REFER A FRIEND",
+              "url": "",
+              "header": true
+            }
+          ]
+        ]
       }
     ],
     [
       {
-        "image": "https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=640",
-        "url": ""
-      },
-      {
-        "video": "https://download-video.akamaized.net/2/playback/7a42efa3-df43-476e-8d25-8e4770afef0e/08419bf3-8a694b95?__token__=st=1688534605~exp=1688549005~acl=%2F2%2Fplayback%2F7a42efa3-df43-476e-8d25-8e4770afef0e%2F08419bf3-8a694b95%2A~hmac=ea24f7e6332aa8b4693e76a26844731d44e57c001c8b0fd6191fb5cb159ab81c&r=dXMtd2VzdDE%3D",
-        "url": ""
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=640",
+              "url": ""
+            },
+            {
+              "video": "https://download-video.akamaized.net/2/playback/7a42efa3-df43-476e-8d25-8e4770afef0e/08419bf3-8a694b95?__token__=st=1688534605~exp=1688549005~acl=%2F2%2Fplayback%2F7a42efa3-df43-476e-8d25-8e4770afef0e%2F08419bf3-8a694b95%2A~hmac=ea24f7e6332aa8b4693e76a26844731d44e57c001c8b0fd6191fb5cb159ab81c&r=dXMtd2VzdDE%3D",
+              "url": ""
+            }
+          ]
+        ]
       }
     ],
     [
@@ -159,29 +183,11 @@
 
   "textcontent": [
     [
-        {
-          "title": "Shop for the latest clothes online, sportswear, beauty and shoes online",
-          "options": [
-            [
-              {
-                "text": "THE ICONIC delivers a stylish and current collection of men, women and kids apparel sourced from the most coveted Australian and international brands. With everything from dresses to jeans, ankle boots to sneakers, watches to wallets, beauty essentials and toys, our selection of over 20,000 products has something for every style."
-              },
-              {
-                "text": "Boost your basics and browse through our edit of off-duty essentials. From denim to jersey, button-up shirts to chino shorts, our apparel edits offer something for every style. Scan through our selection of women’s dresses, from elegant cocktail dresses to glamorous gowns and party-perfect shifts, or our collection of suits and blazers."
-              },
-              {
-                "text": "Put your best foot forward with a new pair of shoes. Whether you're after flats or heels, dress shoes or ankle boots, THE ICONIC's selection of footwear will instantly elevate any outfit. Protect yourself from the elements, looking through our range of knitwear, jackets and coats, choosing from classic monochrome designs and brightly patterned pieces. Pull together off-duty outfits with our range of accessories. Keep it casual with beanies and soft knitted scarves or lend instant elegance to outfits with a premium leather bag or designer watch."
-              },
-              {
-                "text": "Rejuvenate your skincare regime with nourishing moisturisers and cleansers. Add swipes of lipstick and face makeup for your evening glow-up or spritz yourself with fragrant perfume from THE ICONIC’s growing offering of beauty and wellness products. THE ICONIC boasts a range of toys and games for kids, from dolls and plush toys, to action figures and puzzles."
-              },
-              {
-                "text": "Add to your kid's clothing lineup with baby bodysuits, dresses, jumpers, leggings and more. With a stylish selection of clothes, shoes, activewear, toys and beauty products online, THE ICONIC is your one-stop-shop for your lifestyle essentials."
-              }
-            ]
-          ]
-        }
-      ]
-
+      {
+        "title": "Shop for the latest clothes online, sportswear, beauty and shoes online",
+        "text": "<p>THE ICONIC delivers a stylish and current collection of men, women and kids apparel sourced from the most coveted Australian and international brands. With everything from dresses to jeans, ankle boots to sneakers, watches to wallets, beauty essentials and toys, our selection of over 20,000 products has something for every style.</p> <p>Boost your basics and browse through our edit of off-duty essentials. From denim to jersey, button-up shirts to chino shorts, our apparel edits offer something for every style. Scan through our selection of women’s dresses, from elegant cocktail dresses to glamorous gowns and party-perfect shifts, or our collection of suits and blazers.</p><p>Put your best foot forward with a new pair of shoes. Whether you're after flats or heels, dress shoes or ankle boots, THE ICONIC's selection of footwear will instantly elevate any outfit. Protect yourself from the elements, looking through our range of knitwear, jackets and coats, choosing from classic monochrome designs and brightly patterned pieces. Pull together off-duty outfits with our range of accessories. Keep it casual with beanies and soft knitted scarves or lend instant elegance to outfits with a premium leather bag or designer watch.</p><p>Rejuvenate your skincare regime with nourishing moisturisers and cleansers. Add swipes of lipstick and face makeup for your evening glow-up or spritz yourself with fragrant perfume from THE ICONIC’s growing offering of beauty and wellness products. THE ICONIC boasts a range of toys and games for kids, from dolls and plush toys, to action figures and puzzles.</p><p>Add to your kid's clothing lineup with baby bodysuits, dresses, jumpers, leggings and more. With a stylish selection of clothes, shoes, activewear, toys and beauty products online, THE ICONIC is your one-stop-shop for your lifestyle essentials.</p>"
+        
+      }
+    ]
   ]
 }
