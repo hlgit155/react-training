@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const MainHomeWrap = styled.div`
-  padding: 20px 0 50px;
+  padding: 48px 0 50px;
 `;
 
 export const ShopAllBrands = styled.div`

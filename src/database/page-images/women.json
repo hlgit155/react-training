@@ -2,38 +2,51 @@
   "content":[
     {
       "type":"image",
-      "item-per-row":1,
+      "item-per-row":2,
       "group":[
         {
-          "image":"https://images.prismic.io/theiconic-content-service/ee85befa-11d5-45fb-9a9d-9e29dc6e47a7_EOSS-Bundles-SkinnyDesktop-U.gif?auto=compress,format&amp;h=329&amp",
+          "image":"https://images.prismic.io/theiconic-content-service/34fd7637-a4ba-4539-84dd-158ddf0edd20_W-U.gif?auto=compress,format&fm=webp&h=1110&w=832 832w",
+          "url":""
+        },
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/256beaf8-833d-4975-93e1-ec7bf4889a5c_HeroSq.jpg?auto=compress,format&fm=webp&h=1110&w=832 832w",
           "url":""
         }
       ]
     },
     {
       "type":"image",
-      "item-per-row":3,
+      "item-per-row":6,
       "group":[
         {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "imageHeader":"Think Pink",
-          "textPosition": "below",
-          "description": "Whether just a hint or head-to-toe, pink is always a good idea. Just ask their favourite doll...",
-          "url":""
+          "image":"https://images.prismic.io/theiconic-content-service/c10c1a56-1ae0-4d8c-82a7-15b40edf9edf_Wk28-25P-EpicWeek-CatTilesW-Category-1.jpg?auto=compress,format&fm=webp&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Wardrobe Must-Haves"
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/801b3436-db79-4086-b29b-0437563c88f7_HP-M-Desktop.jpg?auto=compress,format&h=1110&w=832",
-          "imageHeader":"Get Cosy",
-          "textPosition": "below",
-          "description": "The snug layers, soft knits and comfy staples they'll live in all winter long.",
-          "url":""
+          "image":"https://images.prismic.io/theiconic-content-service/c59516b3-795a-4349-9a01-a103d17b8483_Wk28-25P-EpicWeek-CatTilesW-Category-2.jpg?auto=compress,format&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Winter Essentials"
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/80253cc0-fe92-497e-8963-07813dd0637f_HP-K-Desktop.jpg?auto=compress,format&h=1110&w=832",
-          "imageHeader":"Just In: Marks & Spencer",
-          "textPosition": "below",
-          "description": "Discover dresses, jackets, knits and more new arrivals from the Marks & Spencer kids collection.",
-          "url":""
+          "image":"https://images.prismic.io/theiconic-content-service/a152a1dc-ba83-4f53-98fb-eda3c69d9689_Wk28-25P-EpicWeek-CatTilesW-Category-3.jpg?auto=compress,format&fm=webp&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Most-Wanted Heels"
+        },
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/c7d79191-e2a5-420f-b7f8-661e4a3da371_Wk28-25P-EpicWeek-CatTilesW-Category-4.jpg?auto=compress,format&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Trending Dresses"
+        },
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/eb91e2e1-718e-4acb-b545-c01e373c4e10_Wk28-25P-EpicWeek-CatTilesW-Category-5.jpg?auto=compress,format&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Designer Finds"
+        },
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/d610969b-a871-4a93-9d73-456fb660cae1_Wk28-25P-EpicWeek-CatTilesW-Category-6.jpg?auto=compress,format&h=1280&w=1280 1280w",
+          "url":"",
+          "imageHeader":"Already Reduced Styles"
         }
       ]
     },

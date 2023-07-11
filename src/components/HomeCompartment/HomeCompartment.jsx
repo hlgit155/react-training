@@ -12,8 +12,12 @@ import {
   ImageHeader,
   ImageTextGroup,
   ImageDescription,
-  CompartmentButton
+  CompartmentButton,
+  StyledNavlink
+  
 } from "./HomeCompartment.style";
+
+import { useLocation, NavLink } from "react-router-dom";
 
 export default function HomeCompartment(props) {
   const { data } = props;
@@ -30,8 +34,9 @@ export default function HomeCompartment(props) {
       <ImageTextGroup hrStyled={data.hr}>
         {data.group.map((item) => {
           return (
-            <Compartment
-              itemsPerRow={data["item-per-row"]}
+            <StyledNavlink 
+            to={item.url}
+            itemsPerRow={data["item-per-row"]}
               text={item?.text}
             >
               {console.log("item", item?.text)}
@@ -44,7 +49,9 @@ export default function HomeCompartment(props) {
               {"description" in item && (
                 <ImageDescription>{item.description}</ImageDescription>
               )}
-            </Compartment>
+
+            </StyledNavlink>
+
           );
         })}
       </ImageTextGroup>
