@@ -1,18 +1,28 @@
 import styled from "styled-components";
+import {ReactComponenet as NextLogo} from "./../../../assets/next.svg";
+import {ReactComponent as PreviousLogo} from "./../../../assets/previous.svg"
+import { Carousel } from "react-bootstrap";
 
 export const MainWrap = styled.div`
-  min-width: 1320px;
+  min-width: 100%;
   margin: 0 calc(640px - 50vw + 0px);
   background-color: #f5f5f5;
+  position: relative;
+`;
+
+export const NextL = styled(NextLogo)`
+  line-height: 15px;
+`;
+
+export const PreviousL = styled(PreviousLogo)`
+  line-height: 15px;
 `;
 
 export const InnerWrap = styled.div`
-  min-width: 768px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 48px 20px;
   max-width: 1320px;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  position: relative;
 `;
 
 export const H2 = styled.h2`
@@ -29,7 +39,6 @@ export const HeadingLine = styled.div`
 `;
 
 export const HeadingText = styled.div`
-  min-width: 768px;
   font-size: 16px;
   display: flex;
   justify-content: end;
@@ -42,16 +51,20 @@ export const HeadingText = styled.div`
 export const BottomWrap = styled.div`
   margin-top: 8px;
   display: flex;
+  width: 30.71%;
 `;
 
 export const ImageWraps = styled.div`
   margin: 8px;
-  width: 30.71%;
+  width: 100%;
+  position: relative;
 `;
 
 export const TextContainer = styled.div`
-  margin-left: 10px;
-  margin-right: 16%;
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+  width: 100%;
   background-color: #fff;
   padding: 16px 24px;
 `;
@@ -78,6 +91,11 @@ export const Titles = styled.h4`
   letter-spacing: 0.3px;
 `;
 
+
+export const StyledCarousel = styled(Carousel)`
+  width: 100%;
+
+`;
 export const Image = styled.img`
      width: 100%;
 `;
@@ -91,13 +109,18 @@ export const Button = styled.button`
     margin-left: 10px;
 `;
 
-export const CarouselContainer = styled.div`
-     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 200px;
+
+export const ControlButton = styled.button`
+  border: none;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
 `;
 
-export const CarouselButton = styled.button`
-    background-color: #ebe4e4;
-`;
+
+// export const CarouselContainer = styled.div`
+//      display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   width: 200px;
+// `;

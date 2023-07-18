@@ -1,74 +1,18 @@
-import React, { useRef } from "react";
-import Carousel from "react-elastic-carousel";
+import React from "react";
+
 import HomeContent from "../../../components/HomeComponents/HomeContent";
 import womenPage from "../../../database/women-page.json";
-import {
-  BottomWrap,
-  H2,
-  HeadingLine,
-  HeadingText,
-  ImageWraps,
-  InnerWrap,
-  MainWrap,
-  TextContainer,
-  Heading,
-  Titles,
-  Image,
-  ButtonContainer,
-} from "./WomenHome.styles";
+import CarouselContent from "../MainHome/CarouselContent";
 
 const WomenHome = () => {
-  const carouselRef = useRef(null);
-
   return (
     <>
       <HomeContent homeData={womenPage} />
-
-      {womenPage.bottomcontent.map((titleInfo, titleIdx) => (
-        <MainWrap key={titleIdx}>
-          {titleInfo.map((item, index) => (
-            <InnerWrap key={index}>
-              <HeadingLine>
-                {item.title && <H2>{item.title}</H2>}
-                <ButtonContainer>
-                  <HeadingText>View All</HeadingText>
-                </ButtonContainer>
-              </HeadingLine>
-
-              {item.subcontent[0].length > 3 && (
-                <Carousel
-                  ref={carouselRef}
-                  itemsToShow={3}
-                  itemsToScroll={1}
-                  renderPagination={() => null} 
-                >
-                  {item.subcontent[0].map((subItem, subIndex) => (
-                    <BottomWrap key={subIndex}>
-                      {subItem?.image && (
-                        <ImageWraps>
-                          <Image src={subItem.image} alt="" />
-
-                          <TextContainer>
-                            {subItem?.titles && (
-                              <Titles>{subItem.titles}</Titles>
-                            )}
-                            {subItem?.heading && (
-                              <Heading>{subItem.heading}</Heading>
-                            )}
-                          </TextContainer>
-                        </ImageWraps>
-                      )}
-                    </BottomWrap>
-                  ))}
-                </Carousel>
-              )}
-            </InnerWrap>
-          ))}
-        </MainWrap>
-      ))}
+      <CarouselContent carouselData={womenPage} />
     </>
   );
 };
+
 
 export default WomenHome;
 

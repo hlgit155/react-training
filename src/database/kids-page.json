@@ -1,105 +1,194 @@
 {
   "content": [
     [
-        {
-            "submenu": [
-                [
-                    {
-                      "image": "https://images.prismic.io/theiconic-content-service/fc14347a-702f-47c9-9b7a-ffc296ee2964_K-30P+Holiday-SkinnySale-Discovermore-Desktop.jpg?auto=compress,format&h=329&w=640",
-                      "url": ""
-                    }
-                  ]
-            ]
-        }
-    ],
-   [
-    {
+      {
         "submenu": [
-            [
-                {
-                  "image": "https://images.prismic.io/theiconic-content-service/24c8818e-ed28-41ac-a578-b3484880910b_K-Wardrobe+Refresher-Baby-Desktop.jpg?auto=compress,format&h=1110&w=640",
-                  "url": ""
-                },
-                {
-                  "image": "https://images.prismic.io/theiconic-content-service/b55a77e0-59f0-466f-9343-443c330b1d64_K-Wardrobe+Refresher-Kids-Desktop.jpg?auto=compress,format&h=1110&w=640",
-                  "url": ""
-                },
-                {
-                  "image": "https://images.prismic.io/theiconic-content-service/793df83c-bb61-4b25-8c35-24b08290d80b_K-Wardrobe+Refresher-Teens-Desktop.jpg?auto=compress,format&h=1110&w=320",
-                  "url": ""
-                }
-              ]
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/c1ae22cd-c093-4f38-adb9-562415225f77_HeroSq-K-Baby.jpg?auto=compress,format&h=1110&w=640",
+              "url": ""
+            },
+            {
+                "image": "https://images.prismic.io/theiconic-content-service/868a93f9-7a2d-4f54-b6c9-ccd19e53f510_HeroSq-K-Kids.jpg?auto=compress,format&h=1110&w=640",
+                "url": ""
+            },
+            {
+                "image": "https://images.prismic.io/theiconic-content-service/1586b9cc-2fd8-44b2-8a6f-18a792902391_HeroSq-K-Teen.jpg?auto=compress,format&h=1110&w=640",
+                "url": ""
+            }
+          ]
         ]
-    }
-   ],
-   [
-    {
-        "submenu": [
-            [
-                {
-                    "image": "https://images.prismic.io/theiconic-content-service/48f9a021-1186-496f-8368-3f25c9bbb0b7_K-SkinnySale-Discovermore-Desktop.jpg?auto=compress,format&h=329&w=640",
-                    "url": ""
-                }
-            ]
-        ]
-    }
-   ],
-    [
-        {
-            "title": "Spend & Save 30% by Category",
-            "submenu": [
-                [
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/22fdfdd3-5ee9-458b-98f9-9dae6e459d69_CatTile1.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Boys"
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/225b8f0c-6bd7-4765-b4b3-39944aec8f85_CatTile2.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Girls"
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/489f10c8-6529-4341-9d9d-d5af8b97b230_CatTile3.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Shoes & Accessories"
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/2fcc3038-3623-41d8-a308-ce94c2e4b9de_CatTile4.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Sweats & Sets"
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/b6060ce2-c76b-4abd-a8e9-5fc83c03a820_CatTile5.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Sport"
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/96957632-4532-4482-8022-fbb3a5834409_CatTile6.jpg?auto=compress,format&h=1280&w=640",
-                        "url": "",
-                        "footer": "Dresses"
-                    }
-                    
-                ]
-            ]
-        }
+      }
     ],
     [
-        {
-            "title": "Shop Newness",
-            "submenu": [
-                [
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/0552a87e-4952-4799-acbf-f87dd1a8eb46_Wk26-K-ThinkPink-Onsite-Hero.gif?auto=compress,format&fm=webp&h=1110&w=640",
-                        "url": ""
-                    },
-                    {
-                        "image": "https://images.prismic.io/theiconic-content-service/09b12a13-2c92-434c-ad0b-3bd7b8692418_Wk27-K-TeddyBear%27sPicnic-HeroSq-NEW.jpg?auto=compress,format&h=1110&w=640",
-                        "url": ""
-                    }
-                ]
-            ]
-        }
+      {
+        "title": "Don't Miss These Epic Deals",
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/c553ec54-fdf3-4e8d-96ff-d9b5660fe11f_Wk28-25P-EpicWeek-CatTilesK-Category-1.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Sporty Styles"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/c6debbb4-e3e1-43bf-b1e6-1ed347782041_Wk28-25P-EpicWeek-CatTilesK-Category-2.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Winter Warmers"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/e99292bb-a337-49f0-b593-abf86caba1cb_Wk28-25P-EpicWeek-CatTilesK-Category-3.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Designer Brands"
+            },
+            {
+                "image": "https://images.prismic.io/theiconic-content-service/b24fec24-cb70-4a31-bf2c-c83364c972ce_Wk28-25P-EpicWeek-CatTilesK-Category-4.jpg?auto=compress,format&h=1280&w=640",
+                "url": "",
+                "footer": "Favourite Dresses"
+            },
+            {
+                "image": "https://images.prismic.io/theiconic-content-service/b1601eab-a7cc-4ac3-b894-05741ec5cdd1_Wk28-25P-EpicWeek-CatTilesK-Category-5.jpg?auto=compress,format&h=1280&w=640",
+                "url": "",
+                "footer": "Girl's Pick"
+            },
+            {
+                "image": "https://images.prismic.io/theiconic-content-service/aaf549da-ee59-4a89-9660-4b469112ec3c_Wk28-25P-EpicWeek-CatTilesK-Category-6.jpg?auto=compress,format&h=1280&w=640",
+                "url": "",
+                "footer": "Boy's Pick"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/48f9a021-1186-496f-8368-3f25c9bbb0b7_K-SkinnySale-Discovermore-Desktop.jpg?auto=compress,format&h=329&w=640",
+              "url": ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "title": "Spend & Save 30% by Category",
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/22fdfdd3-5ee9-458b-98f9-9dae6e459d69_CatTile1.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Boys"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/225b8f0c-6bd7-4765-b4b3-39944aec8f85_CatTile2.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Girls"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/489f10c8-6529-4341-9d9d-d5af8b97b230_CatTile3.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Shoes & Accessories"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/2fcc3038-3623-41d8-a308-ce94c2e4b9de_CatTile4.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Sweats & Sets"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/b6060ce2-c76b-4abd-a8e9-5fc83c03a820_CatTile5.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Sport"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/96957632-4532-4482-8022-fbb3a5834409_CatTile6.jpg?auto=compress,format&h=1280&w=640",
+              "url": "",
+              "footer": "Dresses"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "title": "Shop Newness",
+        "submenu": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/0552a87e-4952-4799-acbf-f87dd1a8eb46_Wk26-K-ThinkPink-Onsite-Hero.gif?auto=compress,format&fm=webp&h=1110&w=640",
+              "url": ""
+            },
+            {
+              "image": "https://images.prismic.io/theiconic-content-service/09b12a13-2c92-434c-ad0b-3bd7b8692418_Wk27-K-TeddyBear%27sPicnic-HeroSq-NEW.jpg?auto=compress,format&h=1110&w=640",
+              "url": ""
+            }
+          ]
+        ]
+      }
     ]
+  ],
+  "bottomcontent": [
+    [
+      {
+        "title": "Read the latest on Edition",
+        "subcontent": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 17 Jul | 4 mins",
+              "heading": "34 Must-Have Barbiecore Styles - Plus The Pinker Than Pink Accessories To Match"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/88efb666-4f4f-4a09-b4d3-35284793d3d4_GettyImages-1414178717.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 5 July | 4 mins",
+              "heading": "We Asked The Experts (New Parents) What To Pack In An Overnight Hospital Bag"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/112573d5-ce40-4096-a420-7170c1d428d4_GettyImages-1505393316.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 11 May | 3 mins",
+              "heading": "Why Jellycat Is On Every New Mum's Wishlist"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/35abd14f-eb76-4c02-8b57-1da79b3ef599_GettyImages-1042107004.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 9 May",
+              "heading": "The Cute & Cosy Styles They'll Wear All Winter Long"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/0b468f8a-86ab-436b-8d31-3e0accc0941e_Photo+20-4-2023_+1+36+39+pm.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Style | 3 May | 4 mins",
+              "heading": "The Perfect Mother's Day Outfit Ideas"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/08c58d5d-e860-4974-b247-e29ba91da623_1.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 11 Apr",
+              "heading": "The Perfect Outfit For Every Holiday Adventure"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/944e4391-9a88-4966-b385-35bd8eed34a7_1.jpg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 30 Mar",
+              "heading": "Great Style? It's All In The Jeans"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/28f2741a-2e70-40a5-8746-af8104060927_http___static.theiconic.com.au_p_huxbaby-4263-7881081-1.webp?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 24 Mar | 3 mins",
+              "heading": "17 Ear-resistible Outfits And Toys For The Kids This Easter"
+            }
+          ]
+        ]
+      }
+    ]
+
   ]
 }
+
+
+
