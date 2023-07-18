@@ -6,33 +6,29 @@ export const RowWrap = styled.div`
   margin-bottom: ${marginBottom};
   flex-direction: column;
   position: relative;
-  margin-top: 0;
-  margin-bottom: 48px;
+  margin: ${(props) => (props.rowLength === 1 ? "0 8px 8px" : "8px 0px 32px")};
 `;
 
 export const MiniRowWrap = styled.div`
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
 `;
 
 const calculateWidth = (rowLength) => {
-  const calculateWidth = `${100 / rowLength}%`;
-  return calculateWidth;
+  return `${1280 / rowLength}px`;
 };
 
-const marginPixel = 16;
-
 export const ImageWrap = styled.div`
-  width: calc(${(props) => calculateWidth(props.rowLength)} - ${marginPixel}px);
-  margin: 0 8px;
-  margin-bottom: ${marginPixel}px;
+  width: ${(props) => calculateWidth(props.rowLength)};
+  margin-left: 8px;
+  margin-right: 8px;
 `;
+
 
 export const Images = styled.img`
   width: 100%;
-  margin-right: 16px;
 `;
+
 
 export const Description = styled.h2`
   position: absolute;
@@ -52,13 +48,15 @@ export const TextStyle = styled.div`
   /* letter-spacing: 0.3px; */
 `;
 
+
 export const Title = styled.h2`
-  margin-top: 0;
-  margin-bottom: 20px;
+  padding: 8px 8px;
 `;
 
 export const FooterStyle = styled.h3`
-  margin: 0 0 8px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 `;
 
 export const TextTitle = styled.h1`
@@ -74,8 +72,9 @@ export const ParagraphWrap = styled.div`
   margin: 0 0 20px;
 `;
 
+
 export const TextContent = styled.div`
-  /* margin: 0 0 20px 0; */
+  margin: 0 0 20px 0;
   letter-spacing: 0.01875em;
   font-size: 14px;
   line-height: 20px;
