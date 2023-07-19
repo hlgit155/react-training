@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import {ReactComponenet as NextLogo} from "./../../../assets/next.SVG";
-import {ReactComponent as PreviousLogo} from "./../../../assets/previous.svg"
+import { ReactComponenet as NextLogo } from "./../../../assets/next.svg";
+import { ReactComponent as PreviousLogo } from "./../../../assets/previous.svg";
 import { Carousel } from "react-bootstrap";
 
 export const MainWrap = styled.div`
@@ -91,24 +91,21 @@ export const Titles = styled.h4`
   letter-spacing: 0.3px;
 `;
 
-
 export const StyledCarousel = styled(Carousel)`
   width: 100%;
-
 `;
 export const Image = styled.img`
-     width: 100%;
+  width: 100%;
 `;
 
 export const ButtonContainer = styled.div`
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 `;
 
 export const Button = styled.button`
-    margin-left: 10px;
+  margin-left: 10px;
 `;
-
 
 export const ControlButton = styled.button`
   border: none;
@@ -116,7 +113,6 @@ export const ControlButton = styled.button`
   width: 32px;
   height: 32px;
 `;
-
 
 // export const CarouselContainer = styled.div`
 //      display: flex;
