@@ -63,7 +63,13 @@ export const StyledNavlink = styled(NavLink)`
   /* margin: ${blockMargin}px ${blockMargin}px; */
   background-color: ${ (props) => {
     return props.text ? "#232323" : ""
-  }  }
+  }  };
+  padding-top: ${ (props) => {
+    return props.text ? "16px" : ""
+  }  };
+  padding-bottom: ${ (props) => {
+    return props.text ? "16px" : ""
+  }  };
   
 `;
 

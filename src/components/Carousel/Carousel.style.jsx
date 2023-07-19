@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { ReactComponent as IcLeft } from "../../assets/Carousel/IconArrowLeft.svg";
 import { ReactComponent as IcRight } from "../../assets/Carousel/IconArrowRight.svg";
 import { CoreBoxWidth, CoreH1, CoreH2, CoreP} from "../../core/core.styles";
-
+import { NavLink } from "react-router-dom";
 
 export const CarouselContainer = styled.div`
   background-color: #F5F5F5;
@@ -83,3 +83,12 @@ export const Header = styled(CoreH1)`
 export const Buttons = styled.div`
   display:flex;
 `;
+
+export const StyledNavlink = styled(NavLink)`
+  text-decoration: none;
+  color: black;
+`
+export const ViewAll = styled(CoreH2)`
+  font-size: 16px;
+  font-weight: 600;
+`

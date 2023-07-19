@@ -11,7 +11,9 @@ import {
   IconRight,
   HeaderRow,
   Header,
-  Buttons
+  Buttons,
+  StyledNavlink,
+  ViewAll
 } from "./Carousel.style";
 import ProductCrs from "../ProductCrs/ProductCrs";
 import ArticleCrs from "../ArticleCrs/ArticleCrs";
@@ -41,6 +43,7 @@ export default function Carousel(props) {
       <HeaderRow>
           <Header>{children.header}</Header>
           <Buttons>
+            <StyledNavlink to={children.link}><ViewAll>VIEW ALL</ViewAll></StyledNavlink>
             <StyledControlButton onClick={prev} disabled={currentIndex===0}>
               <IconLeft currentIndex={currentIndex}></IconLeft>
             </StyledControlButton>
