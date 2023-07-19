@@ -56,11 +56,9 @@ export const MainContent = styled.div`
   grid-template-columns: 25% 75%;
 `;
 export const ProductFilter = styled.div`
-  border: 1px solid black;
-  height: 200px;
+
 `;
 export const ProductList = styled.div`
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
 `;
