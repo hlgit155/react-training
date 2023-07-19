@@ -32,19 +32,3 @@ const MainHome = () => {
 
 export default MainHome;
 
-// else if ("options" in item) {
-//   return (
-//     <ParagraphWrap key={index}>
-//       <TextTitle>{item.title}</TextTitle>
-//       {item.options.map((textItem, textIndex) => {
-//         return (
-//           <TextWrap key={textIndex}>
-//             {textItem.map((text, index) => (
-//               <TextContent key={index}>{text.text}</TextContent>
-//             ))}
-//           </TextWrap>
-//         );
-//       })}
-//     </ParagraphWrap>
-//   );
-// }

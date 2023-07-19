@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ReactComponenet as NextLogo} from "./../../../assets/next.svg";
+import {ReactComponenet as NextLogo} from "./../../../assets/next.SVG";
 import {ReactComponent as PreviousLogo} from "./../../../assets/previous.svg"
 import { Carousel } from "react-bootstrap";
 
