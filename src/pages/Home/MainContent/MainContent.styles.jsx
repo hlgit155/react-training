@@ -4,7 +4,7 @@ import { CoreBoxWidth } from "../../../core/core.styles";
 export const MainWrap = styled.div`
    display: flex;
    width: 100%;
-   padding: 2rem 0;
+   padding-top: 2rem;
    justify-content: center;
 `;
 

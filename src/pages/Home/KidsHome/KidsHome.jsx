@@ -8,7 +8,7 @@ const KidsHome = () => {
   return (
     <>
       <HomeContent homeData={kidsPage} />
-      <CarouselContent carouselData={kidsPage} />
+      <CarouselContent carouselData={kidsPage} children />
     </>
   );
 };

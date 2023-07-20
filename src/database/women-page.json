@@ -100,5 +100,65 @@
         ]
       }
     ]
+  ],
+  "bottomcontent": [
+    [
+      {
+        "title": "Read the latest on Edition",
+        "subcontent": [
+          [
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 17 Jul | 4 mins",
+              "heading": "34 Must-Have Barbiecore Styles - Plus The Pinker Than Pink Accessories To Match"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 5 July | 4 mins",
+              "heading": "We Asked The Experts (New Parents) What To Pack In An Overnight Hospital Bag"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 11 May | 3 mins",
+              "heading": "Why Jellycat Is On Every New Mum's Wishlist"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 9 May",
+              "heading": "The Cute & Cosy Styles They'll Wear All Winter Long"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Style | 3 May | 4 mins",
+              "heading": "The Perfect Mother's Day Outfit Ideas"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 11 Apr",
+              "heading": "The Perfect Outfit For Every Holiday Adventure"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Lookbook | 30 Mar",
+              "heading": "Great Style? It's All In The Jeans"
+            },
+            {
+              "image": "https://images.prismic.io/theiconic/893d6d24-c086-4c80-ba69-88b8aec7bbf2_339795331_798350755255651_5851615462994102602_n.jpeg?auto=compress,format&h=480&w=640",
+              "url": "",
+              "titles": "Family | 24 Mar | 3 mins",
+              "heading": "17 Ear-resistible Outfits And Toys For The Kids This Easter"
+            }
+          ]
+        ]
+      }
+    ]
+
   ]
 }

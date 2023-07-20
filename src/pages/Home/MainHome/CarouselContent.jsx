@@ -1,4 +1,6 @@
-import React, { useRef, useState } from "react";
+
+import React from "react";
+import Carousel, { consts } from "react-elastic-carousel";
 import {
   BottomWrap,
   H2,
@@ -11,32 +13,24 @@ import {
   Heading,
   Titles,
   Image,
-  ButtonContainer,
   PreviousL,
   NextL,
-  ControlButton,
-  StyledCarousel,
 } from "./Carousel.styles";
 
+function MyArrow({ type, onClick, isEdge }) {
+  const PointerIcon = type === consts.PREV ? PreviousL : NextL
+  return (
+    <div onClick={onClick} disabled={isEdge}>
+      <PointerIcon/>
+    </div>
+  )
+}
 
 const CarouselContent = (props) => {
-  const carouselRef = useRef(null);
   const carouselData = props.carouselData;
-  const { elements } = props.children;
-  const length = elements.length;
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const next = () => {
-    if (currentIndex < length - 1) {
-      setCurrentIndex((prevState) => prevState + 1);
-    }
-  };
+  const breakPoints = [{ width: 1320, itemsToShow: 3 }];
 
-  const prev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prevState) => prevState - 1);
-    }
-  };
   return (
     <>
       {carouselData.bottomcontent.map((titleInfo, titleIdx) => (
@@ -45,44 +39,30 @@ const CarouselContent = (props) => {
             <InnerWrap key={index}>
               <HeadingLine>
                 {item.title && <H2>{item.title}</H2>}
-                <ButtonContainer>
+
                 <HeadingText>View All</HeadingText>
-                <ControlButton onClick={prev} disabled={currentIndex === 0}>
-                    <PreviousL currentIndex={currentIndex} />
-                  </ControlButton>
-                  <ControlButton
-                    onClick={next}
-                    disabled={currentIndex === length - 4}
-                  >
-                    <NextL currentIndex={currentIndex} length={length} />
-                  </ControlButton>
-                </ButtonContainer>
               </HeadingLine>
 
               {item.subcontent[0].length > 3 && (
-                <StyledCarousel
-                  ref={carouselRef}
-                  itemsToShow={3}
-                  itemsToScroll={1}
-                
-                >
+                <Carousel renderArrow={MyArrow} breakPoints={breakPoints} pagination={false}>
                   {item.subcontent[0].map((subItem, subIndex) => (
                     <BottomWrap key={subIndex}>
-                      {subItem && subItem.image &&(
+                      {subItem && subItem.image && (
                         <ImageWraps>
                           <Image src={subItem.image} alt="" />
-
                           <TextContainer>
-                          {subItem && subItem.titles && <Titles>{subItem.titles}</Titles>}
-
-                          {subItem && subItem.heading && <Heading>{subItem.heading}</Heading>}
-
+                            {subItem && subItem.titles && (
+                              <Titles>{subItem.titles}</Titles>
+                            )}
+                            {subItem && subItem.heading && (
+                              <Heading>{subItem.heading}</Heading>
+                            )}
                           </TextContainer>
                         </ImageWraps>
                       )}
                     </BottomWrap>
                   ))}
-                </StyledCarousel>
+                </Carousel>
               )}
             </InnerWrap>
           ))}
