@@ -74,12 +74,12 @@ export default function Footer() {
         <hr />
         <BottomWrap>
           <BottomHeader>
-            { pathArr[1] ==="" ? "OUR TOP SEARCHES" : "OUR TOP SEARCHES - " + pathArr[1] }
+            {/* { pathArr[1] ==="" ? "OUR TOP SEARCHES" : "OUR TOP SEARCHES - " + pathArr[1] } */}
+            OUR TOP SEARCHES - WOMEN
           </BottomHeader>
           <BottomColumnWrap>
-            { pathArr[1] ==="" ? footer["bottom-top-searches"]["women"].map(
+            {/* { pathArr[1] ==="" ? footer["bottom-top-searches"]["women"].map(
               (item, index) => {
-                /* return <BottomItem>{item.name}</BottomItem>; */
                 return (<BottomColumn>
                   {item.map((itm,idx) => {
                     return <BottomItem>{itm.name}</BottomItem>
@@ -87,6 +87,16 @@ export default function Footer() {
                 </BottomColumn>)
               }
             )  : footer["bottom-top-searches"][pathArr[1]].map(
+              (item, index) => {
+                return (<BottomColumn>
+                  {item.map((itm,idx) => {
+                    return <BottomItem>{itm.name}</BottomItem>
+                  })}
+                </BottomColumn>)
+              }
+            )} */}
+
+            {footer["bottom-top-searches"]["women"].map(
               (item, index) => {
                 /* return <BottomItem>{item.name}</BottomItem>; */
                 return (<BottomColumn>
@@ -96,6 +106,7 @@ export default function Footer() {
                 </BottomColumn>)
               }
             )}
+
           </BottomColumnWrap>
 
 

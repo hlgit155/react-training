@@ -4,6 +4,7 @@ import MainHome from "./pages/Home/MainHome";
 import WomenRoutes from "./routes/WomenRoutes";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer/Footer";
+import Product from "./pages/Product/Product";
 
 function MainLayout() {
   return (
@@ -14,6 +15,8 @@ function MainLayout() {
           <Route path="/" element={<MainHome />} />
           <Route path="/women/*" element={<WomenRoutes />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/product/*" element={<Product />} />
+
         </Routes>
 
       <Footer />
