@@ -39,6 +39,8 @@ export const ImageHeader = styled(CoreH2)`
 
 export const ImageDescription = styled(CoreP)`
   font-size: 16px;
+  margin-top: 6px;
+  line-height: 1.5;
 `;
 
 export const Text = styled(CoreP)`

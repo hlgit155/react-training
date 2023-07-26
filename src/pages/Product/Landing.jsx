@@ -1,4 +1,5 @@
-import data from "../../database/catagory/coats-jackets.json";
+import data from "../../database/products/data_coatsAndJackets.json";
+import filters from "../../database/filter/filter.json";
 import {
   LandingWrap,
   TopPromotionRow,
@@ -13,6 +14,11 @@ import {
   Pagination,
   MainContent,
   ProductFilter,
+  Filter,
+  TitleRow,
+  Title,
+  Arrow,
+
   ProductList,
   ProductCard,
   StyledNavlink,
@@ -32,7 +38,7 @@ function Landing() {
       {/* Elements under this are centred with a max width of 1280px */}
       <CenteredContainer>
         <SortAndBreadCrumbRow>
-          <BreadCrumb>WOMEN CLOTHING COATS & JACKETS</BreadCrumb>
+          <BreadCrumb>WOMEN / CLOTHING / COATS & JACKETS</BreadCrumb>
           <ItemsFound>1763 items found</ItemsFound>
           <SortingDropDownMenu>
             <select>
@@ -51,16 +57,33 @@ function Landing() {
           <Pagination>Page 1 2 3 4 5</Pagination>
         </PaginationRow>
         <MainContent>
-          <ProductFilter></ProductFilter>
+          <ProductFilter>
+            {filters.map(item => {
+              return (
+                <Filter>
+                  <TitleRow>
+                    <Title>{item}</Title>
+                    <Arrow>&gt;</Arrow>
+                  </TitleRow>
+                  <hr style={{color:"grey"}}></hr>
+                </Filter>
+              )
+            })}
+
+
+          </ProductFilter>
           <ProductList>
-            {data.products.map((item) => {
+            {data.map((item) => {
               return (
                 <ProductCard>
-                  <StyledNavlink>
-                    <img src={item.image} width="100%"></img>
-                    <Brand>{item.brand}</Brand>
+                  <StyledNavlink to={{
+        pathname: "/product",
+        search: `?id=${item.id}`
+                  }}>
+                    <img src={item["product_images"][0].thumbnails} width="100%"></img>
+                    <Brand>{item.brand.name}</Brand>
                     <Name>{item.name}</Name>
-                    <Price>${item.price}</Price>
+                    <Price>$100</Price>
                   </StyledNavlink>
                 </ProductCard>
               );

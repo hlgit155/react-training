@@ -13,6 +13,7 @@ import {
   SubmenuItem,
   SubColumn,
   SubHeader,
+  MenuNavLink,
   ListItem,
   ImageWrap,
   IconGroup,
@@ -20,7 +21,7 @@ import {
   IconBag,
   IconSearch,
   IconUser,
-  IconWishlist
+  IconWishlist,
 } from "./Header.styles";
 import Topbar from "../Topbar/Topbar";
 import mainMenu from "../../database/menu/main-menu.json";
@@ -43,7 +44,7 @@ function Header() {
   const pageNavbar =
     navbarMenu.find((navbar) => navbar.page === pathArr[1]) ||
     navbarMenu.find((navbar) => navbar.page === "women");
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
   const [submenuIndex, setSubmenuIndex] = useState(0);
 
   const handleHover = (index) => {
@@ -62,7 +63,17 @@ function Header() {
       </ExtraTopbarWrap>
       <HeaderSection>
         <TopbarRow>
-          <Logo />
+          <NavLink
+            style={{
+              minWidth: "70px",
+              width: "160px",
+              margin: "auto 24px",
+            }}
+            to="/"
+          >
+            <Logo />
+          </NavLink>
+
           <Topbar mainMenu={topbarMenu} />
           {/* <TopbarOptions /> */}
           <IconGroup>
@@ -122,7 +133,9 @@ function Header() {
                     ) : "image" in listItem ? (
                       <img src={listItem.image} width="100%"></img>
                     ) : (
-                      <ListItem>{listItem.name}</ListItem>
+                      <MenuNavLink to={listItem.url}>
+                        <ListItem>{listItem.name}</ListItem>
+                      </MenuNavLink>
                     );
                   })}
                 </SubColumn>

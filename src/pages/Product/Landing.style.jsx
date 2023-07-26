@@ -32,6 +32,7 @@ export const SortAndBreadCrumbRow = styled.div`
 export const BreadCrumb = styled.div`
   padding: 16px;
   font-size: 12px;
+  color: #acacac;
 `;
 export const ItemsFound = styled.div`
   font-size: 12px;
@@ -42,7 +43,6 @@ export const ItemsFound = styled.div`
 export const SortingDropDownMenu = styled.div`
   padding: 9px 16px;
 `;
-
 
 export const PaginationRow = styled.div`
   display: flex;
@@ -55,8 +55,16 @@ export const MainContent = styled.div`
   display: grid;
   grid-template-columns: 25% 75%;
 `;
-export const ProductFilter = styled.div`
+export const ProductFilter = styled.div``;
+export const Filter = styled.div``;
+export const TitleRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+export const Title = styled.div``;
 
+export const Arrow = styled.div`
+  transform: rotate(90deg);
 `;
 export const ProductList = styled.div`
   display: flex;

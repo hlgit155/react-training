@@ -66,38 +66,27 @@
     },
     {
       "type":"image",
-      "item-per-row":2,
+      "item-per-row":3,
       "group":[
         {
-          "image":"https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=832",
+          "image":"https://images.prismic.io/theiconic-content-service/50fff83a-7bcf-44b0-8cc4-551a67c45349_W-influencerTile-P.gif?auto=compress,format&h=1110&w=832 832w",
+          "imageHeader":"@gemkwatts’ Frenzy Finds",
+          "textPosition": "below",
+          "description": "Shop dresses, denim, shoes, knits and more Winter Frenzy finds on @gemkwatts’ list.",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=832",
-          "url":""
-        }
-      ]
-    },
-    {
-      "type":"image",
-      "item-per-row":2,
-      "group":[
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
+          "image":"https://images.prismic.io/theiconic-content-service/fc133178-300a-4533-b628-a119d1130235_Tile4Across.jpg?auto=compress,format&h=1110&w=832 832w",
+          "imageHeader":"& Other Stories",
+          "textPosition": "below",
+          "description": "Explore the latest sets, dresses and more effortlessly elevated wardrobe essentials from & Other Stories.",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":""
-        }
-      ]
-    },
-    {
-      "type":"image",
-      "item-per-row":1,
-      "group":[
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
+          "image":"https://images.prismic.io/theiconic-content-service/b0b91c1d-e40d-4b09-a9ca-8fbc2d6e0c9f_Wk27-W-WardrobeRefresh-OS.gif?auto=compress,format&h=1110&w=832 832w",
+          "imageHeader":"Winter Refresh",
+          "textPosition": "below",
+          "description": "Wake up your winter lineup with the latest knits, coats, loafers and more of @gabriellasmith__'s top picks.",
           "url":""
         }
       ]

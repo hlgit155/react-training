@@ -53,42 +53,29 @@
     },
     {
       "type":"image",
-      "item-per-row":2,
-      "group":[
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=832",
-          "url":""
-        },
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/af5d552d-5338-4628-b7d7-94b39419f492_Wk26_EOSS-Final-Call__HeroSq-U.gif?auto=compress,format&h=1110&w=832",
-          "url":""
-        }
-      ]
-    },
-    {
-      "type":"image",
-      "item-per-row":2,
-      "group":[
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":""
-        },
-        {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
-          "url":""
-        }
-      ]
-    },
-    {
-      "type":"image",
       "item-per-row":1,
       "group":[
         {
-          "image":"https://images.prismic.io/theiconic-content-service/306194bc-83d1-4656-be71-dc3126c08861_HP-W-Desktop.jpg?auto=compress,format&amp;fm=webp&amp;h=1110&amp",
+          "image":"https://images.prismic.io/theiconic-content-service/c36ddbff-dd9c-4bad-8b85-3c12d770c404_MC-M-SkinnyDesktop.jpg?auto=compress,format&h=329&w=2560 2560w,https://images.prismic.io/theiconic-content-service/c36ddbff-dd9c-4bad-8b85-3c12d770c404_MC-M-SkinnyDesktop.jpg?auto=compress,format&h=329&w=2880 2880w",
           "url":""
         }
       ]
     },
+    {
+      "type":"image",
+      "item-per-row":2,
+      "group":[
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/9a3d653a-901d-47b5-a92c-5eb90c894264_U-NewArrials_NEWNEWNEW.gif?auto=compress,format&fm=webp&h=1110&w=832 832w",
+          "url":""
+        },
+        {
+          "image":"https://images.prismic.io/theiconic-content-service/341741fe-c5b0-4882-a3f2-d0b89c5a2038_Wk29-U-HeroSq.gif?auto=compress,format&fm=webp&h=1110&w=832 832w",
+          "url":""
+        }
+      ]
+    },
+
     {
       "type":"image",
       "item-per-row":4,
@@ -157,23 +144,23 @@
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/adcf7bff-fdd9-4f04-be33-ba8ce668c74b_Frame+17.jpg?auto=compress,format&h=1280&w=640",
+          "image":"https://images.prismic.io/theiconic-content-service/8a9bc580-5022-4271-9c99-95cb1736f5f8_2A.jpg?auto=compress,format&fm=webp&h=1280&w=1280 1280w",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/886b71c9-8ab2-4f31-a78d-1d2002a61cb9_Frame+15.jpg?auto=compress,format&h=1280&w=640",
+          "image":"https://images.prismic.io/theiconic-content-service/ef193d30-9460-4608-a809-cef194971947_3A.jpg?auto=compress,format&h=1280&w=640 640w",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/4f938571-7d8c-467e-aeb9-be056c3ff6ec_4-HP-MD.jpg?auto=compress,format&h=1280&w=640",
+          "image":"https://images.prismic.io/theiconic-content-service/23ecb5b8-901e-470b-be1e-92ea8424542f_4A.jpg?auto=compress,format&h=1280&w=640 640w",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/73942e03-4130-4e4a-9d02-80f8893464fe_Frame+18.jpg?auto=compress,format&h=1280&w=640",
+          "image":"https://images.prismic.io/theiconic-content-service/7a763f8e-34ef-4377-ae05-a7faf062dfb3_5A.jpg?auto=compress,format&h=1280&w=640 640w",
           "url":""
         },
         {
-          "image":"https://images.prismic.io/theiconic-content-service/968a00bc-bf6a-4db8-a2a6-3dd1bb1dfa75_6-HP-SH.jpg?auto=compress,format&h=1280&w=640",
+          "image":"https://images.prismic.io/theiconic-content-service/6bb36659-2b24-4e49-957a-171fb5bbcc2a_6A.jpg?auto=compress,format&h=1280&w=640 640w",
           "url":""
         },
         {

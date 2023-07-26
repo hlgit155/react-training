@@ -5,6 +5,7 @@ import { ReactComponent as IcBag } from "../../assets/Header/icon-bag.svg"
 import { ReactComponent as IcSearch } from "../../assets/Header/icon-search.svg"
 import { ReactComponent as IcUser } from "../../assets/Header/icon-user.svg"
 import { ReactComponent as IcWishlist } from "../../assets/Header/icon-wishlist.svg"
+import { NavLink } from "react-router-dom";
 
 export const HeaderWrap = styled.header`
   width: 100%;
@@ -48,7 +49,7 @@ export const Logo = styled(AssetLogo)`
   line-height: 24px;
   min-width: 70px;
   width: 160px;
-  margin: auto 24px;
+  /* margin: auto 24px; */
 `;
 
 export const NavbarRow = styled(CoreBoxWidth)`
@@ -82,6 +83,7 @@ export const SubmenuRow = styled.div`
   padding-top: 16px 24px;
   background-color: #fff;
   transition: all .2s;
+  box-shadow: 0 1px 100px rgba(35,35,35,.15);
 `;
 
 export const SubmenuContainer = styled(CoreBoxWidth)`
@@ -90,7 +92,7 @@ export const SubmenuContainer = styled(CoreBoxWidth)`
   justify-content: stretch; 
   align-items: flex-start;
   /* padding: 24px; */
-  background-color: lightgrey;
+  background-color: #fff;
 `;
 
 export const SubmenuItem = styled(CoreBoxWidth)`
@@ -106,6 +108,15 @@ export const SubHeader = styled.div`
   font-weight: 600;
   margin-bottom: 0.5rem;
 `;
+
+export const MenuNavLink = styled(NavLink)`
+  text-decoration: none;
+  color: #4d4d4d;
+  :hover {
+    cursor: pointer;
+  }
+`;
+
 
 export const ListItem = styled.div`
   padding: 0.5rem 0;
