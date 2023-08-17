@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { CoreBoxWidth, CoreH1, CoreH2, CoreP} from "../../core/core.styles";
+import { CoreBoxWidth, CoreH1, CoreH2, CoreP } from "../../core/core.styles";
 import { NavLink } from "react-router-dom";
-
+import { device } from "../../core/device";
 
 export const CompartmentRow = styled.div`
   width: 100%;
@@ -27,7 +27,6 @@ export const ImageTextGroup = styled.div`
   flex-wrap: wrap;
   column-gap: ${blockGap}px;
   row-gap: 24px;
-
 `;
 
 export const ImageHeader = styled(CoreH2)`
@@ -35,7 +34,6 @@ export const ImageHeader = styled(CoreH2)`
   font-size: 18px;
   margin-top: 8px;
 `;
-
 
 export const ImageDescription = styled(CoreP)`
   font-size: 16px;
@@ -55,33 +53,43 @@ const blockMargin = "8";
 export const StyledNavlink = styled(NavLink)`
   text-decoration: none;
   color: black;
-  width: ${(props) => {
-    let widthPercentage = 100 / props.itemsPerRow + "%";
-    let marginToReduce = blockMargin * 2;
-    let minusGap = Number(blockGap)*(props.itemsPerRow-1)/props.itemsPerRow;
-    return `calc(${widthPercentage} - ${minusGap}px)`;
+  width: 100%;
+  /* margin: ${blockMargin}px ${blockMargin}px; */
+  background-color: ${(props) => {
+    return props.text ? "#232323" : "";
+  }};
+  padding-top: ${(props) => {
+    return props.text ? "16px" : "";
+  }};
+  padding-bottom: ${(props) => {
+    return props.text ? "16px" : "";
   }};
 
-  /* margin: ${blockMargin}px ${blockMargin}px; */
-  background-color: ${ (props) => {
-    return props.text ? "#232323" : ""
-  }  };
-  padding-top: ${ (props) => {
-    return props.text ? "16px" : ""
-  }  };
-  padding-bottom: ${ (props) => {
-    return props.text ? "16px" : ""
-  }  };
-  
+  @media ${device.mobileL} {
+    
+  };
+  @media ${device.tablet} {
+    width: ${`calc(50% - ${Number(blockGap) / 2}px)`};
+  };
+  @media (min-width: 960px) {
+    width: ${(props) => {
+      let widthPercentage = 100 / props.itemsPerRow + "%";
+      let marginToReduce = blockMargin * 2;
+      let minusGap =
+        (Number(blockGap) * (props.itemsPerRow - 1)) / props.itemsPerRow;
+      return `calc(${widthPercentage} - ${minusGap}px)`;
+    }};
+  }
 `;
 
 export const CompartmentImage = styled.img`
-  width:100%;
+  width: 100%;
 `;
 
 export const CompartmentButton = styled.div`
   background-color: white;
-  font-family: "Proxima Nova","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Helvetica, Arial,
+    sans-serif;
   text-align: center;
   font-weight: 600;
   padding: 16px 20px;
@@ -90,4 +98,3 @@ export const CompartmentButton = styled.div`
   margin: 40px auto;
   width: 244px;
 `;
-

@@ -9,16 +9,18 @@ import {
   BottomWrap,
   BottomHeader,
   BottomItem,
-  LeftBox,
-  RightBox,
+  SiteMapBox,
+  SubscriptionBox,
   Title,
   Message,
   SearchGroup,
+  SelectAndInput,
   Select,
   Input,
   Button,
   BottomColumn,
   BottomColumnWrap,
+  Half,
   IcIconic,
   IcAppStore,
   IcGooglePlay,
@@ -26,7 +28,7 @@ import {
   FooterTradeMarkconGroup,
   GFGIconWrap,
   IconicWrap,
-  AppStoreGooglePlayWrap
+  AppStoreGooglePlayWrap,
 } from "./Footer.styles";
 import mainMenu from "../../database/menu/main-menu.json";
 import { useLocation } from "react-router-dom";
@@ -36,14 +38,35 @@ export default function Footer() {
   const footer = mainMenu.footer;
   const { pathname } = useLocation();
   const pathArr = pathname.split("/");
-  console.log("pathArr",pathArr)
+  console.log("pathArr", pathArr);
   // const currentSecondPath = pathname.split("/")[1];
 
   return (
     <OuterWrap>
       <Wrap>
         <FooterWrap>
-          <LeftBox>
+          <SubscriptionBox>
+            <ColumnHeader>STAY IN TOUCH</ColumnHeader>
+            <Message>Sign up to THE ICONIC News for your $20 voucher.*</Message>
+            <SearchGroup>
+              <SelectAndInput>
+                <Select name="gender" id="gender-select">
+                  <option value="women">Women</option>
+                  <option value="men">Men</option>
+                </Select>
+
+                <Input
+                  type="text"
+                  defaultValue="Enter your email address"
+                ></Input>
+              </SelectAndInput>
+
+              <Button>Submit</Button>
+            </SearchGroup>
+            <Message>* $20 voucher for new sign ups only.</Message>
+          </SubscriptionBox>
+
+          <SiteMapBox>
             {footer.top.map((item, index) => {
               return (
                 <FooterColumn>
@@ -54,22 +77,7 @@ export default function Footer() {
                 </FooterColumn>
               );
             })}
-          </LeftBox>
-
-          <RightBox>
-            <ColumnHeader>STAY IN TOUCH</ColumnHeader>
-            <Message>Sign up to THE ICONIC News for your $20 voucher.*</Message>
-            <SearchGroup>
-              <Select name="gender" id="gender-select">
-                <option value="women">Women</option>
-                <option value="men">Men</option>
-              </Select>
-              
-              <Input type="text" defaultValue="Enter your email address"></Input>
-              <Button>Submit</Button>
-            </SearchGroup>
-            <Message>* $20 voucher for new sign ups only.</Message>
-          </RightBox>
+          </SiteMapBox>
         </FooterWrap>
         <hr />
         <BottomWrap>
@@ -96,26 +104,38 @@ export default function Footer() {
               }
             )} */}
 
-            {footer["bottom-top-searches"]["women"].map(
-              (item, index) => {
-                /* return <BottomItem>{item.name}</BottomItem>; */
-                return (<BottomColumn>
-                  {item.map((itm,idx) => {
-                    return <BottomItem>{itm.name}</BottomItem>
+              {footer["bottom-top-searches"]["women"].map((half, index) => {
+                
+                return (
+                  <Half>
+                  {half.map((everyFourItems) => {
+                    return (                     
+                    <BottomColumn>
+                      {everyFourItems.map((itm, idx) => {
+                        return <BottomItem>{itm.name}</BottomItem>;
+                      })}
+                    </BottomColumn>)
                   })}
-                </BottomColumn>)
-              }
-            )}
+
+                  </Half>
+
+
+                );
+              })}
+
+
+            
 
           </BottomColumnWrap>
-
-
         </BottomWrap>
       </Wrap>
       <FooterTradeMarkconGroupWrap>
         <FooterTradeMarkconGroup>
           <GFGIconWrap>
-            <img src={require("../../assets/footer/gfg-logo.png")} height="34px"></img>
+            <img
+              src={require("../../assets/footer/gfg-logo.png")}
+              height="34px"
+            ></img>
           </GFGIconWrap>
           <IconicWrap>
             <IcIconic></IcIconic>
@@ -126,7 +146,6 @@ export default function Footer() {
           </AppStoreGooglePlayWrap>
         </FooterTradeMarkconGroup>
       </FooterTradeMarkconGroupWrap>
-
     </OuterWrap>
   );
 }

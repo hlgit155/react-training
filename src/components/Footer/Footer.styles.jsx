@@ -1,15 +1,14 @@
 import styled from "styled-components";
 import { CoreBoxWidth } from "../../core/core.styles";
 // import { ReactComponent as GFGLogo } from "../../assets/footer/gfg-logo.png"
-import { ReactComponent as AppStoreLogo } from "../../assets/footer/app-store-badge.svg"
-import { ReactComponent as GooglePlayLogo } from "../../assets/footer/google-play-badge.svg"
+import { ReactComponent as AppStoreLogo } from "../../assets/footer/app-store-badge.svg";
+import { ReactComponent as GooglePlayLogo } from "../../assets/footer/google-play-badge.svg";
 import { ReactComponent as IconicLogo } from "./../../assets/logo.svg";
-
 
 export const OuterWrap = styled.footer`
   background-color: black;
   width: 100%;
-  font-size: .75rem;
+  font-size: 0.75rem;
 `;
 
 export const Wrap = styled(CoreBoxWidth)`
@@ -20,29 +19,38 @@ export const Wrap = styled(CoreBoxWidth)`
 `;
 
 export const FooterWrap = styled.div`
-  /* width: 100%;
-  max-width: 1280px;
-  margin: 0 auto; */
-  padding: 2.5rem 0;
-  /* background-color: black; */
-  display: flex;
-  justify-content: space-between;
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 `;
 
 export const FooterColumn = styled.div`
-  width:33%;
+  @media (min-width: 768px) {
+    width: 33%;
+  }
+  @media (max-width: 767px) {
+    width: 50%;
+  }
 `;
 
 export const ColumnHeader = styled.div`
   color: white;
   font-family: Proxima Nova Bold, Sans-Serif;
   font-weight: 600;
-  
+
   margin: 16px 0 12px;
 `;
 
 export const FooterItem = styled.div`
-  color: #FFFFFFB3;
+  color: #ffffffb3;
   font-family: Proxima Nova, Sans-Serif;
   margin-bottom: 0.75rem;
 `;
@@ -63,7 +71,14 @@ export const BottomHeader = styled.div`
 `;
 
 export const BottomColumn = styled.div`
-  width: 12.5%;
+ 
+  @media (min-width: 768px) {
+ width: 25%;
+
+  }
+  @media (max-width: 767px) {
+    
+  }
 `;
 
 export const BottomColumnWrap = styled.div`
@@ -72,18 +87,45 @@ export const BottomColumnWrap = styled.div`
   justify-content: stretch;
 `;
 
+export const Half = styled.div`
+    width: 50%;
+  @media (min-width: 768px) {
+    display: flex;
+  justify-content: stretch;
+
+  }
+  @media (max-width: 767px) {
+
+  }
+
+`;
+
 export const BottomItem = styled.div`
-  color: #FFFFFFB3;
+  color: #ffffffb3;
   font-family: Proxima Nova, Sans-Serif;
   margin-bottom: 0.75rem;
 `;
 
-export const LeftBox = styled.div`
-  display:flex;
-  width: 50%;
+export const SiteMapBox = styled.div`
+
+  display: flex;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
 `;
-export const RightBox = styled.div`
-  width: 40%
+export const SubscriptionBox = styled.div`
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+
 `;
 
 export const Message = styled.p`
@@ -95,27 +137,33 @@ export const SearchGroup = styled.div`
   margin: 0 0 16px;
 `;
 
+export const SelectAndInput = styled.div`
+  display: flex;
+  width: calc(75% - 8px);
+`;
+
 export const Select = styled.select`
-  width: 20%;
+  width: 30%;
   height: 40px;
   padding: 0 16px;
   border: none;
-  border-right: 1px solid #F5F5F5;
+  border-right: 1px solid #f5f5f5;
   /* background-color: #ffffff; */
 `;
 
 export const Input = styled.input`
-height: 40px;
-padding: 8px;
-border: none;
+  width: 70%;
+  height: 40px;
+  padding: 8px;
+  border: none;
 `;
 
 export const Button = styled.button`
-height: 40px;
-width: 20%;
-padding: 12px 4px 10px;
-margin-left: 8px;
-border: none;
+  height: 40px;
+  width: 25%;
+  padding: 12px 4px 10px;
+  margin-left: 8px;
+  border: none;
 `;
 
 export const IcIconic = styled(IconicLogo)`
@@ -138,21 +186,18 @@ export const FooterTradeMarkconGroup = styled(CoreBoxWidth)`
   grid-template-columns: 42% 16% 42%;
   align-items: center;
   padding: 16px 24px;
-  
 `;
 export const GFGIconWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-  
 `;
 export const IconicWrap = styled.div`
   /* font-size: 14px; */
-  
+
   display: flex;
   justify-content: center;
 `;
 export const AppStoreGooglePlayWrap = styled.div`
   display: flex;
   justify-content: flex-end;
-  
 `;
